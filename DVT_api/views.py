@@ -13,7 +13,7 @@ from rest_framework.decorators import api_view, permission_classes
 from rest_framework.permissions import AllowAny
 from rest_framework.response import Response
 from rest_framework.views import APIView
-from .models import Users
+from .models import EventApp
 from . import GUM_API
 from rest_framework.status import (
     HTTP_400_BAD_REQUEST,
@@ -47,6 +47,21 @@ def login(request):
 def post_user(request):
         serializer = UserSerializer(data=request.data)
         if serializer.is_valid():
+            guid = serializer.validated_data['guid']
+            account_type = serializer.validated_data['accountType']
+            user_prod = 'US_GIHB_PROD_P001'
+            password_prod = 'wML5Hu2CXPySuk3wGCJ6'
+            groupGUID_Internal = 'gx_github_users_p001'
+            groupGUID_External = 'gx_github_ext_users_p001'
+            addUser = GUM_API.GUM_Requests
+            #switch between internal or external 
+            if account_type == 'Internal' or account_type == 'internal':
+                #add user to GUM
+                addUser.AddGroupMember(groupGUID_Internal, guid, password_prod, user_prod)
+                print("User was aded as an internal user.....")
+            else:
+                addUser.AddGroupMember(groupGUID_External, guid, password_prod, user_prod)
+                print("User was aded as an external user.....")
             serializer.save()
             return Response({"status": "success",
                             "data":serializer.data},
@@ -59,7 +74,7 @@ def post_user(request):
 @csrf_exempt
 @api_view(["GET"])
 def get_user(request):
-        items = Users.objects.all()
+        items = EventApp.objects.all()
         serializer = UserSerializer(items, many=True)
         return Response({"status": "success", 
                             "data": serializer.data},  

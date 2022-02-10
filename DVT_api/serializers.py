@@ -1,7 +1,7 @@
 from rest_framework import serializers
-from .models import Users
+from .models import EventApp
 
 class UserSerializer(serializers.HyperlinkedModelSerializer):
     class Meta:
-        model = Users
-        fields = ('requestedApp','username','teamName', 'guid', 'wbsCode', 'ticketNumber', 'email_address', 'accountType')
+        model = EventApp
+        fields = ('teamName', 'guid', 'wbsCode', 'ticketNumber', 'accountType')

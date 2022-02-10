@@ -1,11 +1,11 @@
 from unicodedata import name
 from django.shortcuts import render, redirect
-from DVT_api.models import Users
+from DVT_api.models import EventApp
 from django.http import HttpResponseRedirect
 from .forms import UserForm
 
 def update_user(request, user_id):
-    user = Users.objects.get(pk=user_id)
+    user = EventApp.objects.get(pk=user_id)
     form = UserForm(request.POST or None, instance = user)
     if form.is_valid():
         form.save()
@@ -20,7 +20,7 @@ def update_user(request, user_id):
 def search_user(request):
     if request.method == "POST":
         searched = request.POST['searched']
-        users = Users.objects.filter(name__contains=searched)
+        users = EventApp.objects.filter(name__contains=searched)
 
         return render(request,
         'search_user.html',
@@ -31,7 +31,7 @@ def search_user(request):
                     {})
         
 def show_user(request, user_id):
-    user = Users.objects.get(pk = user_id)
+    user = EventApp.objects.get(pk = user_id)
     return render(request, 'show_user.html',
                     {'user' : user})
 
@@ -50,7 +50,7 @@ def add_users_manually(request):
                     {'form' : form, 'submitted' : submitted})
 
 def all_users(request):
-    user_list = Users.objects.all()
+    user_list = EventApp.objects.all()
     return render(request, 'user_list.html',
                     {'user_list' : user_list})
 

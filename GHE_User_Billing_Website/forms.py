@@ -1,31 +1,25 @@
 from socket import fromshare
 from django import forms
 from django.forms import ModelForm
-from DVT_api.models import Users
+from DVT_api.models import EventApp
 
 
 class UserForm(ModelForm):
     class Meta:
-        model = Users
-        fields = ('state', 'name', 'guid', 'pwc_ppi', 'owner', 'owner_project', 'email_address', 'account_type')
+        model = EventApp
+        fields = ('guid', 'teamName', 'wbsCode', 'ticketNumber', 'accountType')
         labels = {
-            'state': '',
-            'name': '',
             'guid': '',
-            'pwc_ppi': '',
-            'owner': '',
-            'owner_project': '',
-            'email_address': '',
-            'account_type': '',
+            'teamName': '',
+            'wbsCode': '',
+            'ticketNumber': '',
+            'accountType': '',
         }
         
         widgets = {
-            'state': forms.TextInput(attrs={'class' : 'form-control', 'placeholder' : 'Account Sate (active/inactive)'}),
-            'name': forms.TextInput(attrs={'class' : 'form-control', 'placeholder' : 'User Name'}),
-            'guid': forms.TextInput(attrs={'class' : 'form-control', 'placeholder' : 'PwC guID'}),
-            'pwc_ppi': forms.TextInput(attrs={'class' : 'form-control', 'placeholder' : 'PwC PPI Code'}),
-            'owner': forms.TextInput(attrs={'class' : 'form-control', 'placeholder' : 'Project Owner'}),
-            'owner_project': forms.TextInput(attrs={'class' : 'form-control', 'placeholder' : 'Project Name'}),
-            'email_address': forms.EmailInput(attrs={'class' : 'form-control', 'placeholder' : 'Requester Email Address'}),
-            'account_type': forms.TextInput(attrs={'class' : 'form-control', 'placeholder' : 'Account Type (internal/external)'}),
+            'guid': forms.TextInput(attrs={'class' : 'form-control', 'placeholder' : 'PwC GUID'}),
+            'teamName': forms.TextInput(attrs={'class' : 'form-control', 'placeholder' : 'User Team Name'}),
+            'wbsCode': forms.TextInput(attrs={'class' : 'form-control', 'placeholder' : 'WBS - Billing Code'}),
+            'ticketNumber': forms.TextInput(attrs={'class' : 'form-control', 'placeholder' : 'Service NOW Ticket number'}),
+            'accountType': forms.TextInput(attrs={'class' : 'form-control', 'placeholder' : 'Internal/External User'}),
         }

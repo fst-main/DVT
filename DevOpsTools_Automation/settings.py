@@ -30,7 +30,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'django.contrib.sites',
+    #'django.contrib.sites',
     'rest_framework',
     'DVT_api',
     'GHE_User_Billing_Website.apps.GheUserBillingWebsiteConfig',
