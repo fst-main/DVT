@@ -7,19 +7,19 @@ from DVT_api.models import EventApp
 class UserForm(ModelForm):
     class Meta:
         model = EventApp
-        fields = ('guid', 'teamName', 'wbsCode', 'ticketNumber', 'accountType')
+        fields = ('guid', 'team_name', 'wbs_code', 'ticket_number', 'account_type')
         labels = {
-            'guid': '',
-            'teamName': '',
-            'wbsCode': '',
-            'ticketNumber': '',
-            'accountType': '',
+            'Guid': '',
+            'team_name': '',
+            'wbs_code': '',
+            'ticket_number': '',
+            'account_type': '',
         }
         
         widgets = {
             'guid': forms.TextInput(attrs={'class' : 'form-control', 'placeholder' : 'PwC GUID'}),
-            'teamName': forms.TextInput(attrs={'class' : 'form-control', 'placeholder' : 'User Team Name'}),
-            'wbsCode': forms.TextInput(attrs={'class' : 'form-control', 'placeholder' : 'WBS - Billing Code'}),
-            'ticketNumber': forms.TextInput(attrs={'class' : 'form-control', 'placeholder' : 'Service NOW Ticket number'}),
-            'accountType': forms.TextInput(attrs={'class' : 'form-control', 'placeholder' : 'Internal/External User'}),
+            'team_name': forms.TextInput(attrs={'class' : 'form-control', 'placeholder' : 'User Team Name'}),
+            'wbs_code': forms.TextInput(attrs={'class' : 'form-control', 'placeholder' : 'WBS - Billing Code'}),
+            'ticket_number': forms.TextInput(attrs={'class' : 'form-control', 'placeholder' : 'Service NOW Ticket number'}),
+            'account_type': forms.TextInput(attrs={'class' : 'form-control', 'placeholder' : 'Internal/External User'}),
         }
