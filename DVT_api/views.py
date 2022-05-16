@@ -49,37 +49,52 @@ def login(request):
 def post_user(request):
         serializer = UserSerializer(data=request.data)
         if serializer.is_valid():
-            guid = serializer.validated_data['guid']
-            print(guid)
-            account_type = serializer.validated_data['account_type']
+            #guid = serializer.validated_data['guid']    
+            #account_type = serializer.validated_data['account_type']
             user_prod = 'US_GIHB_PROD_P001'
             password_prod = 'wML5Hu2CXPySuk3wGCJ6'
             groupGUID_Internal = 'gx_github_users_p001'
-            groupGUID_External = 'gx_github_ext_users_p001'
+            #groupGUID_External = 'gx_github_ext_users_p001'
+            #gum_validate = GUM_API.GUM_Requests()
+            #gum_validate.ValidateUserByGuid(guid,password_prod,user_prod)
+            #response = GUM_API.xml
+           
+            #parsing the XML respone and autocomplete some fields
+            root = ET.fromstring(response)
+        for child in root: 
+            pass
+        for x in child:
+            pass
+        for y in x:
+            status = y[0].text
+            FirstName = y[1][1].text
+            SecondName = y[1][2].text
+            EmailAddress = y[1][3].text
+            FullName = FirstName + " " + SecondName
+            print("Email Address: ",EmailAddress)
+            print ("Fullname: ", FullName)
+            FullName.save(update_fields=['user_name']) #PUNELE PE TOATE IN SERIALIZERS SI VEZI ACOLO 
+            EmailAddress.save(update_fields=['email_address'])
             
-
-            if (account_type != 'Internal' or account_type != 'internal' and account_type !='external' or account_type != 'External'):
-                return Response({"status": "error",
-                           "data":serializer.errors},
-                            status=status.HTTP_400_BAD_REQUEST)
-
-            #switch between internal or external 
-            else:
-                if (account_type == 'Internal' or account_type == 'internal'): 
-                #add user to GUM
-                    addUser = GUM_API.GUM_Requests()
-                    addUser.AddGroupMember(groupGUID_Internal, guid, password_prod, user_prod)
-                    serializer.save()
-                    return Response({"status": "Success [ User was aded as an internal user...]",
+            addUser = GUM_API.GUM_Requests()
+            addUser.AddGroupMember(groupGUID_Internal, guid, password_prod, user_prod)
+            serializer.save()
+            return Response({"status": "Success [ User was aded as an internal user...]",
                             "data":serializer.data},
                             status=status.HTTP_200_OK)
-                else:
-                    addUser = GUM_API.GUM_Requests()
-                    addUser.AddGroupMember(groupGUID_External, guid, password_prod, user_prod)
-                    serializer.save()
-                    return Response({"status": "Success [ User was aded as an external user...]",
-                            "data":serializer.data},
-                            status=status.HTTP_200_OK)
+               
+                    #addUser = GUM_API.GUM_Requests()
+                    #addUser.AddGroupMember(groupGUID_External, guid, password_prod, user_prod)
+                    #serializer.save()
+                    #return Response({"status": "Success [ User was aded as an external user...]",
+                     #       "data":serializer.data},
+                      #      status=status.HTTP_200_OK)
+
+
+        #validate_user = GUM_API.GUM_Requests
+        #validate_user.ValidateUserByGuid(guid, password_prod, user_prod)
+        
+'''
         root = ET.fromstring(GUM_API.xml)
         for child in root: 
             pass
@@ -95,10 +110,7 @@ def post_user(request):
             print ("Fullname: ", FullName)
             FullName.save(update_fields=['user_name'])
             EmailAddress.save(update_fields=['email_address'])
-
-
-
-
+'''
             
        
 @csrf_exempt

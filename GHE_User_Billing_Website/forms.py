@@ -7,19 +7,17 @@ from DVT_api.models import EventApp
 class UserForm(ModelForm):
     class Meta:
         model = EventApp
-        fields = ('guid', 'team_name', 'wbs_code', 'ticket_number', 'account_type')
+        fields = ('guid', 'team_name', 'ticket_number', 'account_type')
         labels = {
-            'Guid': '',
+            'guid': '',
             'team_name': '',
-            'wbs_code': '',
             'ticket_number': '',
             'account_type': '',
         }
         
         widgets = {
-            'guid': forms.TextInput(attrs={'class' : 'form-control', 'placeholder' : 'PwC GUID'}),
+            'guid': forms.TextInput(attrs={'class' : 'form-control','style':'border-color : orange', 'placeholder' : 'PwC GUID'}),
             'team_name': forms.TextInput(attrs={'class' : 'form-control', 'placeholder' : 'User Team Name'}),
-            'wbs_code': forms.TextInput(attrs={'class' : 'form-control', 'placeholder' : 'WBS - Billing Code'}),
             'ticket_number': forms.TextInput(attrs={'class' : 'form-control', 'placeholder' : 'Service NOW Ticket number'}),
             'account_type': forms.TextInput(attrs={'class' : 'form-control', 'placeholder' : 'Internal/External User'}),
         }
