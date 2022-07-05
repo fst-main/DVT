@@ -1,0 +1,462 @@
+INFO 2022-05-30 14:57:13,006 - Watching for file changes with StatReloader
+WARNING 2022-05-30 14:57:49,706 - Not Found: /
+INFO 2022-05-30 14:58:05,239 - XMl response None
+WARNING 2022-05-30 14:58:05,251 - Not Found: /add-users
+DEBUG 2022-05-30 14:59:27,330 - Using proactor: IocpProactor
+INFO 2022-05-30 15:00:34,869 - Watching for file changes with StatReloader
+INFO 2022-05-30 15:02:17,049 - C:\DevOpsTools_Automation\Automation%20Platform\DVT_api\models.py changed, reloading.
+DEBUG 2022-05-30 15:02:17,051 - Using proactor: IocpProactor
+INFO 2022-05-30 15:02:18,898 - Watching for file changes with StatReloader
+INFO 2022-05-30 15:02:50,451 - XMl response None
+INFO 2022-05-30 15:02:53,698 - XMl response None
+WARNING 2022-05-30 15:02:53,820 - Not Found: /add-users
+INFO 2022-05-30 15:04:28,175 - C:\DevOpsTools_Automation\Automation%20Platform\DVT_api\models.py changed, reloading.
+DEBUG 2022-05-30 15:04:28,175 - Using proactor: IocpProactor
+INFO 2022-05-30 15:04:29,794 - Watching for file changes with StatReloader
+INFO 2022-05-30 15:05:00,930 - XMl response None
+WARNING 2022-05-30 15:05:00,943 - Not Found: /add-users
+INFO 2022-05-30 15:10:56,399 - C:\DevOpsTools_Automation\Automation%20Platform\DVT_api\views.py changed, reloading.
+DEBUG 2022-05-30 15:10:56,400 - Using proactor: IocpProactor
+INFO 2022-05-30 15:10:58,141 - Watching for file changes with StatReloader
+INFO 2022-05-30 15:11:30,541 - XMl response None
+WARNING 2022-05-30 15:11:30,554 - Not Found: /add-users
+INFO 2022-05-30 15:17:43,690 - C:\DevOpsTools_Automation\Automation%20Platform\DVT_api\views.py changed, reloading.
+DEBUG 2022-05-30 15:17:43,692 - Using proactor: IocpProactor
+INFO 2022-05-30 15:17:46,221 - Watching for file changes with StatReloader
+INFO 2022-05-30 15:17:55,698 - C:\DevOpsTools_Automation\Automation%20Platform\DVT_api\models.py changed, reloading.
+DEBUG 2022-05-30 15:17:55,699 - Using proactor: IocpProactor
+INFO 2022-05-30 15:17:57,515 - Watching for file changes with StatReloader
+INFO 2022-05-30 15:18:12,282 - XMl response None
+WARNING 2022-05-30 15:18:12,388 - Not Found: /add-users
+INFO 2022-05-30 15:26:23,026 - C:\DevOpsTools_Automation\Automation%20Platform\DVT_api\views.py changed, reloading.
+DEBUG 2022-05-30 15:26:23,026 - Using proactor: IocpProactor
+INFO 2022-05-30 15:26:25,088 - Watching for file changes with StatReloader
+INFO 2022-05-30 15:27:20,600 - XMl response None
+WARNING 2022-05-30 15:27:20,613 - Not Found: /add-users
+INFO 2022-05-30 15:29:19,993 - C:\DevOpsTools_Automation\Automation%20Platform\DVT_api\models.py changed, reloading.
+DEBUG 2022-05-30 15:29:19,994 - Using proactor: IocpProactor
+INFO 2022-05-30 15:29:22,317 - Watching for file changes with StatReloader
+INFO 2022-05-30 16:21:14,679 - Watching for file changes with StatReloader
+INFO 2022-05-30 16:21:47,760 - C:\DevOpsTools_Automation\Automation%20Platform\DVT_api\views.py changed, reloading.
+DEBUG 2022-05-30 16:21:47,761 - Using proactor: IocpProactor
+INFO 2022-05-30 16:21:49,723 - Watching for file changes with StatReloader
+INFO 2022-05-30 16:22:49,041 - XMl response None
+WARNING 2022-05-30 16:22:49,139 - Not Found: /add-users
+INFO 2022-05-30 16:24:39,070 - C:\DevOpsTools_Automation\Automation%20Platform\DVT_api\GUM_API.py changed, reloading.
+DEBUG 2022-05-30 16:24:39,071 - Using proactor: IocpProactor
+INFO 2022-05-30 16:24:40,879 - Watching for file changes with StatReloader
+WARNING 2022-05-30 16:24:44,338 - Not Found: /add-users
+INFO 2022-05-30 16:25:01,035 - XMl response None
+WARNING 2022-05-30 16:25:01,044 - Not Found: /add-users
+INFO 2022-05-30 16:33:35,802 - C:\DevOpsTools_Automation\Automation%20Platform\DVT_api\GUM_API.py changed, reloading.
+DEBUG 2022-05-30 16:33:35,804 - Using proactor: IocpProactor
+INFO 2022-05-30 16:33:38,691 - Watching for file changes with StatReloader
+INFO 2022-05-30 16:34:19,887 - XMl response None
+WARNING 2022-05-30 16:34:19,993 - Not Found: /add-users
+WARNING 2022-05-30 16:36:42,984 - Not Found: /add-users
+WARNING 2022-05-30 16:36:49,704 - Not Found: /
+INFO 2022-05-30 16:38:36,866 - C:\DevOpsTools_Automation\Automation%20Platform\DVT_api\models.py changed, reloading.
+DEBUG 2022-05-30 16:38:36,867 - Using proactor: IocpProactor
+INFO 2022-05-30 16:38:39,421 - Watching for file changes with StatReloader
+INFO 2022-05-30 16:38:54,125 - XMl response None
+WARNING 2022-05-30 16:38:54,145 - Not Found: /add-users
+INFO 2022-05-30 16:40:26,170 - C:\DevOpsTools_Automation\Automation%20Platform\DVT_api\views.py changed, reloading.
+DEBUG 2022-05-30 16:40:26,172 - Using proactor: IocpProactor
+INFO 2022-05-30 16:40:29,290 - Watching for file changes with StatReloader
+INFO 2022-05-30 16:40:46,827 - XMl response None
+WARNING 2022-05-30 16:40:46,846 - Not Found: /add-users
+INFO 2022-05-30 16:41:37,081 - C:\DevOpsTools_Automation\Automation%20Platform\DVT_api\views.py changed, reloading.
+DEBUG 2022-05-30 16:41:37,082 - Using proactor: IocpProactor
+INFO 2022-05-30 16:41:39,575 - Watching for file changes with StatReloader
+INFO 2022-05-30 16:42:16,911 - C:\DevOpsTools_Automation\Automation%20Platform\DVT_api\views.py changed, reloading.
+DEBUG 2022-05-30 16:42:16,912 - Using proactor: IocpProactor
+INFO 2022-05-30 16:42:19,645 - Watching for file changes with StatReloader
+INFO 2022-05-30 16:42:24,649 - XMl response None
+WARNING 2022-05-30 16:42:24,675 - Not Found: /add-users
+INFO 2022-05-30 16:43:59,570 - C:\DevOpsTools_Automation\Automation%20Platform\DVT_api\models.py changed, reloading.
+DEBUG 2022-05-30 16:43:59,571 - Using proactor: IocpProactor
+INFO 2022-05-30 16:44:01,763 - Watching for file changes with StatReloader
+INFO 2022-05-30 16:46:50,114 - C:\DevOpsTools_Automation\Automation%20Platform\DVT_api\views.py changed, reloading.
+DEBUG 2022-05-30 16:46:50,116 - Using proactor: IocpProactor
+INFO 2022-05-30 16:46:53,002 - Watching for file changes with StatReloader
+WARNING 2022-05-30 16:46:53,909 - Not Found: /add-users
+WARNING 2022-05-30 16:47:01,222 - Not Found: /add-users
+INFO 2022-05-30 16:54:26,253 - C:\DevOpsTools_Automation\Automation%20Platform\DVT_api\GUM_API.py changed, reloading.
+DEBUG 2022-05-30 16:54:26,254 - Using proactor: IocpProactor
+INFO 2022-05-30 16:54:28,669 - Watching for file changes with StatReloader
+INFO 2022-05-30 16:55:41,868 - C:\DevOpsTools_Automation\Automation%20Platform\DVT_api\views.py changed, reloading.
+DEBUG 2022-05-30 16:55:41,869 - Using proactor: IocpProactor
+INFO 2022-05-30 16:55:43,661 - Watching for file changes with StatReloader
+INFO 2022-05-30 16:56:50,300 - C:\DevOpsTools_Automation\Automation%20Platform\DVT_api\views.py changed, reloading.
+DEBUG 2022-05-30 16:56:50,301 - Using proactor: IocpProactor
+INFO 2022-05-30 16:56:53,024 - Watching for file changes with StatReloader
+WARNING 2022-05-30 16:57:11,345 - Not Found: /add-users
+INFO 2022-05-30 17:02:48,560 - C:\DevOpsTools_Automation\Automation%20Platform\DVT_api\views.py changed, reloading.
+DEBUG 2022-05-30 17:02:48,561 - Using proactor: IocpProactor
+INFO 2022-05-30 17:02:51,305 - Watching for file changes with StatReloader
+WARNING 2022-05-30 17:02:59,829 - Not Found: /add-users
+INFO 2022-05-30 17:03:48,920 - C:\DevOpsTools_Automation\Automation%20Platform\DVT_api\views.py changed, reloading.
+DEBUG 2022-05-30 17:03:48,921 - Using proactor: IocpProactor
+INFO 2022-05-30 17:03:51,764 - Watching for file changes with StatReloader
+WARNING 2022-05-30 17:04:03,040 - Not Found: /add-users
+WARNING 2022-05-30 17:04:07,705 - Not Found: /add-users
+INFO 2022-05-31 00:28:23,615 - C:\DevOpsTools_Automation\Automation%20Platform\DVT_api\models.py changed, reloading.
+DEBUG 2022-05-31 00:28:23,641 - Using proactor: IocpProactor
+INFO 2022-05-31 00:28:26,749 - Watching for file changes with StatReloader
+INFO 2022-05-31 00:29:48,750 - C:\DevOpsTools_Automation\Automation%20Platform\DVT_api\views.py changed, reloading.
+DEBUG 2022-05-31 00:29:48,751 - Using proactor: IocpProactor
+INFO 2022-05-31 00:29:50,437 - Watching for file changes with StatReloader
+WARNING 2022-05-31 00:30:07,355 - Not Found: /add-users
+INFO 2022-05-31 19:49:52,284 - C:\DevOpsTools_Automation\Automation%20Platform\DVT_api\views.py changed, reloading.
+DEBUG 2022-05-31 19:49:52,308 - Using proactor: IocpProactor
+INFO 2022-05-31 19:49:54,849 - Watching for file changes with StatReloader
+WARNING 2022-05-31 19:51:46,448 - Not Found: /add-users
+WARNING 2022-05-31 19:51:56,931 - Not Found: /add-users
+INFO 2022-05-31 19:56:29,390 - C:\DevOpsTools_Automation\Automation%20Platform\DVT_api\views.py changed, reloading.
+DEBUG 2022-05-31 19:56:29,390 - Using proactor: IocpProactor
+INFO 2022-05-31 19:56:33,345 - Watching for file changes with StatReloader
+WARNING 2022-05-31 19:56:47,891 - Not Found: /add-users
+INFO 2022-05-31 20:01:33,346 - C:\DevOpsTools_Automation\Automation%20Platform\DVT_api\views.py changed, reloading.
+DEBUG 2022-05-31 20:01:33,347 - Using proactor: IocpProactor
+INFO 2022-05-31 20:01:36,284 - Watching for file changes with StatReloader
+WARNING 2022-05-31 20:02:36,673 - Not Found: /add-users
+INFO 2022-05-31 20:10:48,645 - C:\DevOpsTools_Automation\Automation%20Platform\DVT_api\views.py changed, reloading.
+DEBUG 2022-05-31 20:10:48,647 - Using proactor: IocpProactor
+INFO 2022-05-31 20:10:51,211 - Watching for file changes with StatReloader
+WARNING 2022-05-31 20:11:01,965 - Not Found: /
+WARNING 2022-05-31 20:11:02,628 - Not Found: /
+WARNING 2022-05-31 20:11:23,523 - Not Found: /add-users
+WARNING 2022-05-31 20:11:43,430 - Not Found: /add-users
+INFO 2022-05-31 20:18:16,330 - C:\DevOpsTools_Automation\Automation%20Platform\DVT_api\views.py changed, reloading.
+DEBUG 2022-05-31 20:18:16,331 - Using proactor: IocpProactor
+INFO 2022-05-31 20:18:19,638 - Watching for file changes with StatReloader
+WARNING 2022-05-31 20:18:37,835 - Not Found: /add-users
+WARNING 2022-05-31 20:18:48,740 - Not Found: /add-users
+INFO 2022-05-31 20:26:03,222 - C:\DevOpsTools_Automation\Automation%20Platform\DVT_api\GUM_API.py changed, reloading.
+DEBUG 2022-05-31 20:26:03,223 - Using proactor: IocpProactor
+INFO 2022-05-31 20:26:05,671 - Watching for file changes with StatReloader
+INFO 2022-05-31 20:28:27,734 - C:\DevOpsTools_Automation\Automation%20Platform\DVT_api\views.py changed, reloading.
+DEBUG 2022-05-31 20:28:27,735 - Using proactor: IocpProactor
+INFO 2022-05-31 20:28:29,369 - Watching for file changes with StatReloader
+INFO 2022-05-31 20:30:05,365 - C:\DevOpsTools_Automation\Automation%20Platform\DVT_api\views.py changed, reloading.
+DEBUG 2022-05-31 20:30:05,367 - Using proactor: IocpProactor
+INFO 2022-05-31 20:30:07,171 - Watching for file changes with StatReloader
+WARNING 2022-05-31 20:30:18,935 - Not Found: /add-users
+WARNING 2022-06-01 12:58:08,288 - Not Found: /api-token-auth
+WARNING 2022-06-01 12:59:04,601 - Not Found: /api-token-auth
+DEBUG 2022-06-01 13:01:55,182 - Using proactor: IocpProactor
+DEBUG 2022-06-01 13:01:55,377 - Using proactor: IocpProactor
+DEBUG 2022-06-01 13:02:06,211 - Using proactor: IocpProactor
+INFO 2022-06-01 13:03:17,329 - Watching for file changes with StatReloader
+INFO 2022-06-01 13:07:11,920 - Validating user information by GUID
+ERROR 2022-06-01 13:07:12,201 - Internal Server Error: /api/post_user
+Traceback (most recent call last):
+  File "C:\Users\candon001\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\candon001\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\candon001\AppData\Local\Programs\Python\Python39\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\candon001\AppData\Local\Programs\Python\Python39\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\candon001\AppData\Local\Programs\Python\Python39\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\candon001\AppData\Local\Programs\Python\Python39\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\candon001\AppData\Local\Programs\Python\Python39\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\candon001\AppData\Local\Programs\Python\Python39\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\candon001\AppData\Local\Programs\Python\Python39\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\candon001\AppData\Local\Programs\Python\Python39\lib\site-packages\rest_framework\decorators.py", line 50, in handler
+    return func(*args, **kwargs)
+  File "C:\DevOpsTools_Automation\Automation%20Platform\DVT_api\views.py", line 66, in post_user
+    guid = serializer.validated_data['guid']
+  File "C:\Users\candon001\AppData\Local\Programs\Python\Python39\lib\site-packages\rest_framework\serializers.py", line 271, in validated_data
+    raise AssertionError(msg)
+AssertionError: You must call `.is_valid()` before accessing `.validated_data`.
+INFO 2022-06-01 13:11:57,261 - C:\DevOpsTools_Automation\Automation%20Platform\DVT_api\views.py changed, reloading.
+DEBUG 2022-06-01 13:11:57,262 - Using proactor: IocpProactor
+INFO 2022-06-01 13:11:58,990 - Watching for file changes with StatReloader
+INFO 2022-06-01 13:12:17,075 - Validating user information by GUID
+DEBUG 2022-06-01 13:12:17,092 - Starting new HTTPS connection (1): gumapiservice.pwcinternal.com:443
+DEBUG 2022-06-01 13:12:20,288 - https://gumapiservice.pwcinternal.com:443 "POST /GumService.asmx?wsdl HTTP/1.1" 200 1035
+ERROR 2022-06-01 13:12:20,332 - Internal Server Error: /api/post_user
+Traceback (most recent call last):
+  File "C:\Users\candon001\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\candon001\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\candon001\AppData\Local\Programs\Python\Python39\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\candon001\AppData\Local\Programs\Python\Python39\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\candon001\AppData\Local\Programs\Python\Python39\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\candon001\AppData\Local\Programs\Python\Python39\lib\site-packages\rest_framework\views.py", line 511, in dispatch
+    self.response = self.finalize_response(request, response, *args, **kwargs)
+  File "C:\Users\candon001\AppData\Local\Programs\Python\Python39\lib\site-packages\rest_framework\views.py", line 423, in finalize_response
+    assert isinstance(response, HttpResponseBase), (
+AssertionError: Expected a `Response`, `HttpResponse` or `HttpStreamingResponse` to be returned from the view, but received a `<class 'NoneType'>`
+INFO 2022-06-01 13:13:42,378 - Validating user information by GUID
+DEBUG 2022-06-01 13:13:42,380 - Starting new HTTPS connection (1): gumapiservice.pwcinternal.com:443
+DEBUG 2022-06-01 13:13:48,576 - https://gumapiservice.pwcinternal.com:443 "POST /GumService.asmx?wsdl HTTP/1.1" 200 1035
+ERROR 2022-06-01 13:13:48,605 - Internal Server Error: /api/post_user
+Traceback (most recent call last):
+  File "C:\Users\candon001\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\candon001\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\candon001\AppData\Local\Programs\Python\Python39\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\candon001\AppData\Local\Programs\Python\Python39\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\candon001\AppData\Local\Programs\Python\Python39\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\candon001\AppData\Local\Programs\Python\Python39\lib\site-packages\rest_framework\views.py", line 511, in dispatch
+    self.response = self.finalize_response(request, response, *args, **kwargs)
+  File "C:\Users\candon001\AppData\Local\Programs\Python\Python39\lib\site-packages\rest_framework\views.py", line 423, in finalize_response
+    assert isinstance(response, HttpResponseBase), (
+AssertionError: Expected a `Response`, `HttpResponse` or `HttpStreamingResponse` to be returned from the view, but received a `<class 'NoneType'>`
+INFO 2022-06-01 13:17:51,609 - C:\DevOpsTools_Automation\Automation%20Platform\DVT_api\models.py changed, reloading.
+DEBUG 2022-06-01 13:17:51,610 - Using proactor: IocpProactor
+INFO 2022-06-01 13:17:54,274 - Watching for file changes with StatReloader
+INFO 2022-06-01 13:18:12,892 - Validating user information by GUID
+DEBUG 2022-06-01 13:18:12,899 - Starting new HTTPS connection (1): gumapiservice.pwcinternal.com:443
+DEBUG 2022-06-01 13:18:16,242 - https://gumapiservice.pwcinternal.com:443 "POST /GumService.asmx?wsdl HTTP/1.1" 200 1035
+ERROR 2022-06-01 13:18:16,449 - Internal Server Error: /api/post_user
+Traceback (most recent call last):
+  File "C:\Users\candon001\AppData\Local\Programs\Python\Python39\lib\site-packages\rest_framework\serializers.py", line 962, in create
+    instance = ModelClass._default_manager.create(**validated_data)
+  File "C:\Users\candon001\AppData\Local\Programs\Python\Python39\lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\Users\candon001\AppData\Local\Programs\Python\Python39\lib\site-packages\django\db\models\query.py", line 453, in create
+    obj.save(force_insert=True, using=self.db)
+  File "C:\DevOpsTools_Automation\Automation%20Platform\DVT_api\models.py", line 38, in save
+    xmlToString = etree.tostring(response, pretty_print = True)
+  File "src\lxml\etree.pyx", line 3445, in lxml.etree.tostring
+TypeError: Type 'bytes' cannot be serialized.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\candon001\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\candon001\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\candon001\AppData\Local\Programs\Python\Python39\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\candon001\AppData\Local\Programs\Python\Python39\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\candon001\AppData\Local\Programs\Python\Python39\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\candon001\AppData\Local\Programs\Python\Python39\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\candon001\AppData\Local\Programs\Python\Python39\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\candon001\AppData\Local\Programs\Python\Python39\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\candon001\AppData\Local\Programs\Python\Python39\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\candon001\AppData\Local\Programs\Python\Python39\lib\site-packages\rest_framework\decorators.py", line 50, in handler
+    return func(*args, **kwargs)
+  File "C:\DevOpsTools_Automation\Automation%20Platform\DVT_api\views.py", line 71, in post_user
+    serializer.save()
+  File "C:\Users\candon001\AppData\Local\Programs\Python\Python39\lib\site-packages\rest_framework\serializers.py", line 212, in save
+    self.instance = self.create(validated_data)
+  File "C:\Users\candon001\AppData\Local\Programs\Python\Python39\lib\site-packages\rest_framework\serializers.py", line 981, in create
+    raise TypeError(msg)
+TypeError: Got a `TypeError` when calling `EventApp.objects.create()`. This may be because you have a writable field on the serializer class that is not a valid argument to `EventApp.objects.create()`. You may need to make the field read-only, or override the UserSerializer.create() method to handle this correctly.
+Original exception was:
+ Traceback (most recent call last):
+  File "C:\Users\candon001\AppData\Local\Programs\Python\Python39\lib\site-packages\rest_framework\serializers.py", line 962, in create
+    instance = ModelClass._default_manager.create(**validated_data)
+  File "C:\Users\candon001\AppData\Local\Programs\Python\Python39\lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\Users\candon001\AppData\Local\Programs\Python\Python39\lib\site-packages\django\db\models\query.py", line 453, in create
+    obj.save(force_insert=True, using=self.db)
+  File "C:\DevOpsTools_Automation\Automation%20Platform\DVT_api\models.py", line 38, in save
+    xmlToString = etree.tostring(response, pretty_print = True)
+  File "src\lxml\etree.pyx", line 3445, in lxml.etree.tostring
+TypeError: Type 'bytes' cannot be serialized.
+
+INFO 2022-06-01 13:26:23,455 - C:\DevOpsTools_Automation\Automation%20Platform\DVT_api\models.py changed, reloading.
+DEBUG 2022-06-01 13:26:23,457 - Using proactor: IocpProactor
+INFO 2022-06-01 13:26:25,416 - Watching for file changes with StatReloader
+INFO 2022-06-01 13:26:37,707 - Validating user information by GUID
+DEBUG 2022-06-01 13:26:37,713 - Starting new HTTPS connection (1): gumapiservice.pwcinternal.com:443
+DEBUG 2022-06-01 13:26:40,780 - https://gumapiservice.pwcinternal.com:443 "POST /GumService.asmx?wsdl HTTP/1.1" 200 1035
+ERROR 2022-06-01 13:26:40,835 - Internal Server Error: /api/post_user
+Traceback (most recent call last):
+  File "C:\Users\candon001\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\candon001\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\candon001\AppData\Local\Programs\Python\Python39\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\candon001\AppData\Local\Programs\Python\Python39\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\candon001\AppData\Local\Programs\Python\Python39\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\candon001\AppData\Local\Programs\Python\Python39\lib\site-packages\rest_framework\views.py", line 511, in dispatch
+    self.response = self.finalize_response(request, response, *args, **kwargs)
+  File "C:\Users\candon001\AppData\Local\Programs\Python\Python39\lib\site-packages\rest_framework\views.py", line 423, in finalize_response
+    assert isinstance(response, HttpResponseBase), (
+AssertionError: Expected a `Response`, `HttpResponse` or `HttpStreamingResponse` to be returned from the view, but received a `<class 'NoneType'>`
+INFO 2022-06-02 17:54:36,126 - C:\DevOpsTools_Automation\Automation%20Platform\DVT_api\models.py changed, reloading.
+DEBUG 2022-06-02 17:54:36,165 - Using proactor: IocpProactor
+INFO 2022-06-02 17:54:39,189 - Watching for file changes with StatReloader
+DEBUG 2022-06-02 18:06:12,357 - Using proactor: IocpProactor
+DEBUG 2022-06-02 18:06:12,530 - Using proactor: IocpProactor
+DEBUG 2022-06-02 18:07:11,672 - Using proactor: IocpProactor
+DEBUG 2022-06-02 18:07:39,910 - Using proactor: IocpProactor
+DEBUG 2022-06-02 18:08:20,244 - Using proactor: IocpProactor
+DEBUG 2022-06-02 18:09:41,020 - Using proactor: IocpProactor
+DEBUG 2022-06-02 18:09:52,833 - Using proactor: IocpProactor
+DEBUG 2022-06-02 18:15:42,251 - Using proactor: IocpProactor
+DEBUG 2022-06-02 18:16:45,693 - Using proactor: IocpProactor
+DEBUG 2022-06-02 18:18:17,639 - Using proactor: IocpProactor
+INFO 2022-06-02 18:18:31,316 - Watching for file changes with StatReloader
+DEBUG 2022-06-02 18:18:53,344 - Using proactor: IocpProactor
+DEBUG 2022-06-02 18:18:53,463 - Using proactor: IocpProactor
+DEBUG 2022-06-02 18:19:06,598 - Using proactor: IocpProactor
+DEBUG 2022-06-02 18:19:28,645 - Using proactor: IocpProactor
+DEBUG 2022-06-02 18:20:09,110 - Using proactor: IocpProactor
+INFO 2022-06-02 18:23:09,006 - Watching for file changes with StatReloader
+INFO 2022-06-02 18:23:51,790 - Validating user information by GUID
+DEBUG 2022-06-02 18:23:51,799 - Starting new HTTPS connection (1): gumapiservice.pwcinternal.com:443
+DEBUG 2022-06-02 18:23:54,322 - https://gumapiservice.pwcinternal.com:443 "POST /GumService.asmx?wsdl HTTP/1.1" 200 1032
+ERROR 2022-06-02 18:23:54,524 - Internal Server Error: /api/post_user
+Traceback (most recent call last):
+  File "C:\Users\candon001\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\candon001\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\candon001\AppData\Local\Programs\Python\Python39\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\candon001\AppData\Local\Programs\Python\Python39\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\candon001\AppData\Local\Programs\Python\Python39\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\candon001\AppData\Local\Programs\Python\Python39\lib\site-packages\rest_framework\views.py", line 511, in dispatch
+    self.response = self.finalize_response(request, response, *args, **kwargs)
+  File "C:\Users\candon001\AppData\Local\Programs\Python\Python39\lib\site-packages\rest_framework\views.py", line 423, in finalize_response
+    assert isinstance(response, HttpResponseBase), (
+AssertionError: Expected a `Response`, `HttpResponse` or `HttpStreamingResponse` to be returned from the view, but received a `<class 'NoneType'>`
+INFO 2022-06-02 18:24:53,003 - Validating user information by GUID
+DEBUG 2022-06-02 18:24:53,005 - Starting new HTTPS connection (1): gumapiservice.pwcinternal.com:443
+DEBUG 2022-06-02 18:24:55,258 - https://gumapiservice.pwcinternal.com:443 "POST /GumService.asmx?wsdl HTTP/1.1" 200 1032
+ERROR 2022-06-02 18:24:55,300 - Internal Server Error: /api/post_user
+Traceback (most recent call last):
+  File "C:\Users\candon001\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\candon001\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\candon001\AppData\Local\Programs\Python\Python39\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\candon001\AppData\Local\Programs\Python\Python39\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\candon001\AppData\Local\Programs\Python\Python39\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\candon001\AppData\Local\Programs\Python\Python39\lib\site-packages\rest_framework\views.py", line 511, in dispatch
+    self.response = self.finalize_response(request, response, *args, **kwargs)
+  File "C:\Users\candon001\AppData\Local\Programs\Python\Python39\lib\site-packages\rest_framework\views.py", line 423, in finalize_response
+    assert isinstance(response, HttpResponseBase), (
+AssertionError: Expected a `Response`, `HttpResponse` or `HttpStreamingResponse` to be returned from the view, but received a `<class 'NoneType'>`
+INFO 2022-06-02 18:25:17,843 - Validating user information by GUID
+DEBUG 2022-06-02 18:25:17,845 - Starting new HTTPS connection (1): gumapiservice.pwcinternal.com:443
+DEBUG 2022-06-02 18:25:19,935 - https://gumapiservice.pwcinternal.com:443 "POST /GumService.asmx?wsdl HTTP/1.1" 200 1035
+ERROR 2022-06-02 18:25:19,984 - Internal Server Error: /api/post_user
+Traceback (most recent call last):
+  File "C:\Users\candon001\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\candon001\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\candon001\AppData\Local\Programs\Python\Python39\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\candon001\AppData\Local\Programs\Python\Python39\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\candon001\AppData\Local\Programs\Python\Python39\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\candon001\AppData\Local\Programs\Python\Python39\lib\site-packages\rest_framework\views.py", line 511, in dispatch
+    self.response = self.finalize_response(request, response, *args, **kwargs)
+  File "C:\Users\candon001\AppData\Local\Programs\Python\Python39\lib\site-packages\rest_framework\views.py", line 423, in finalize_response
+    assert isinstance(response, HttpResponseBase), (
+AssertionError: Expected a `Response`, `HttpResponse` or `HttpStreamingResponse` to be returned from the view, but received a `<class 'NoneType'>`
+INFO 2022-06-02 18:27:56,206 - Validating user information by GUID
+DEBUG 2022-06-02 18:27:56,209 - Starting new HTTPS connection (1): gumapiservice.pwcinternal.com:443
+DEBUG 2022-06-02 18:27:58,364 - https://gumapiservice.pwcinternal.com:443 "POST /GumService.asmx?wsdl HTTP/1.1" 200 1032
+ERROR 2022-06-02 18:27:58,531 - Internal Server Error: /api/post_user
+Traceback (most recent call last):
+  File "C:\Users\candon001\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\candon001\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\candon001\AppData\Local\Programs\Python\Python39\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\candon001\AppData\Local\Programs\Python\Python39\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\candon001\AppData\Local\Programs\Python\Python39\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\candon001\AppData\Local\Programs\Python\Python39\lib\site-packages\rest_framework\views.py", line 511, in dispatch
+    self.response = self.finalize_response(request, response, *args, **kwargs)
+  File "C:\Users\candon001\AppData\Local\Programs\Python\Python39\lib\site-packages\rest_framework\views.py", line 423, in finalize_response
+    assert isinstance(response, HttpResponseBase), (
+AssertionError: Expected a `Response`, `HttpResponse` or `HttpStreamingResponse` to be returned from the view, but received a `<class 'NoneType'>`
+INFO 2022-06-02 18:59:32,673 - Validating user information by GUID
+DEBUG 2022-06-02 18:59:32,675 - Starting new HTTPS connection (1): gumapiservice.pwcinternal.com:443
+DEBUG 2022-06-02 18:59:35,339 - https://gumapiservice.pwcinternal.com:443 "POST /GumService.asmx?wsdl HTTP/1.1" 200 1035
+ERROR 2022-06-02 18:59:35,468 - Internal Server Error: /api/post_user
+Traceback (most recent call last):
+  File "C:\Users\candon001\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\candon001\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\candon001\AppData\Local\Programs\Python\Python39\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\candon001\AppData\Local\Programs\Python\Python39\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\candon001\AppData\Local\Programs\Python\Python39\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\candon001\AppData\Local\Programs\Python\Python39\lib\site-packages\rest_framework\views.py", line 511, in dispatch
+    self.response = self.finalize_response(request, response, *args, **kwargs)
+  File "C:\Users\candon001\AppData\Local\Programs\Python\Python39\lib\site-packages\rest_framework\views.py", line 423, in finalize_response
+    assert isinstance(response, HttpResponseBase), (
+AssertionError: Expected a `Response`, `HttpResponse` or `HttpStreamingResponse` to be returned from the view, but received a `<class 'NoneType'>`
+INFO 2022-06-02 23:15:00,186 - C:\DevOpsTools_Automation\Automation%20Platform\DVT_api\views.py changed, reloading.
+DEBUG 2022-06-02 23:15:00,195 - Using proactor: IocpProactor
+INFO 2022-06-02 23:15:03,213 - Watching for file changes with StatReloader
+INFO 2022-06-02 23:16:12,607 - C:\DevOpsTools_Automation\Automation%20Platform\DVT_api\views.py changed, reloading.
+DEBUG 2022-06-02 23:16:12,609 - Using proactor: IocpProactor
+INFO 2022-06-02 23:16:15,210 - Watching for file changes with StatReloader
+INFO 2022-06-02 23:18:34,588 - C:\DevOpsTools_Automation\Automation%20Platform\DVT_api\views.py changed, reloading.
+DEBUG 2022-06-02 23:18:34,589 - Using proactor: IocpProactor
+INFO 2022-06-02 23:18:36,285 - Watching for file changes with StatReloader
+INFO 2022-06-02 23:19:15,717 - C:\DevOpsTools_Automation\Automation%20Platform\DVT_api\views.py changed, reloading.
+DEBUG 2022-06-02 23:19:15,718 - Using proactor: IocpProactor
+INFO 2022-06-02 23:19:17,607 - Watching for file changes with StatReloader
+INFO 2022-06-02 23:20:31,248 - Validating GUID: garchibald002
+DEBUG 2022-06-02 23:20:31,255 - Starting new HTTPS connection (1): gumapiservice.pwcinternal.com:443
+DEBUG 2022-06-02 23:20:33,699 - https://gumapiservice.pwcinternal.com:443 "POST /GumService.asmx?wsdl HTTP/1.1" 200 1046
+ERROR 2022-06-02 23:20:33,879 - Internal Server Error: /api/post_user
+Traceback (most recent call last):
+  File "C:\Users\candon001\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\candon001\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\candon001\AppData\Local\Programs\Python\Python39\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\candon001\AppData\Local\Programs\Python\Python39\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\candon001\AppData\Local\Programs\Python\Python39\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\candon001\AppData\Local\Programs\Python\Python39\lib\site-packages\rest_framework\views.py", line 511, in dispatch
+    self.response = self.finalize_response(request, response, *args, **kwargs)
+  File "C:\Users\candon001\AppData\Local\Programs\Python\Python39\lib\site-packages\rest_framework\views.py", line 423, in finalize_response
+    assert isinstance(response, HttpResponseBase), (
+AssertionError: Expected a `Response`, `HttpResponse` or `HttpStreamingResponse` to be returned from the view, but received a `<class 'NoneType'>`
+DEBUG 2022-06-13 13:36:12,477 - Using proactor: IocpProactor
+DEBUG 2022-06-13 13:36:13,025 - Using proactor: IocpProactor
+INFO 2022-06-13 13:36:21,955 - Watching for file changes with StatReloader
+WARNING 2022-06-13 13:36:31,228 - Not Found: /
