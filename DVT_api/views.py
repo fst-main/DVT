@@ -13,15 +13,25 @@ from rest_framework.authtoken.models import Token
 from rest_framework.decorators import api_view, permission_classes
 from rest_framework.permissions import AllowAny
 from rest_framework.response import Response
-#from rest_framework.views import APIView
+from rest_framework.views import APIView
 import xml.etree.ElementTree as ET
 from .models import EventApp
-from . import GUM_API
+from .import GUM_API
+import logging
+import requests
 from rest_framework.status import (
     HTTP_400_BAD_REQUEST,
     HTTP_404_NOT_FOUND,
     HTTP_200_OK
 )
+
+
+groupGUID_Internal = 'gx_github_users_p001'
+LOG_FORMAT = "%(levelname)s %(asctime)s - %(message)s"
+logging.basicConfig(filename="C:\\DevOpsTools_Automation\\Automation%20Platform\\logs\\models.log",
+                        level=logging.DEBUG, format=LOG_FORMAT)
+logger=logging.getLogger()
+
 
 
 
@@ -47,72 +57,30 @@ def login(request):
 @csrf_exempt
 @api_view(["POST"])
 def post_user(request):
-        serializer = UserSerializer(data=request.data)
-        if serializer.is_valid():
-            #guid = serializer.validated_data['guid']    
-            #account_type = serializer.validated_data['account_type']
-            user_prod = 'US_GIHB_PROD_P001'
-            password_prod = 'wML5Hu2CXPySuk3wGCJ6'
-            groupGUID_Internal = 'gx_github_users_p001'
-            #groupGUID_External = 'gx_github_ext_users_p001'
-            #gum_validate = GUM_API.GUM_Requests()
-            #gum_validate.ValidateUserByGuid(guid,password_prod,user_prod)
-            #response = GUM_API.xml
-           
-            #parsing the XML respone and autocomplete some fields
-            root = ET.fromstring(response)
-        for child in root: 
-            pass
-        for x in child:
-            pass
-        for y in x:
-            status = y[0].text
-            FirstName = y[1][1].text
-            SecondName = y[1][2].text
-            EmailAddress = y[1][3].text
-            FullName = FirstName + " " + SecondName
-            print("Email Address: ",EmailAddress)
-            print ("Fullname: ", FullName)
-            FullName.save(update_fields=['user_name']) #PUNELE PE TOATE IN SERIALIZERS SI VEZI ACOLO 
-            EmailAddress.save(update_fields=['email_address'])
-            
-            addUser = GUM_API.GUM_Requests()
-            addUser.AddGroupMember(groupGUID_Internal, guid, password_prod, user_prod)
+          serializer = UserSerializer(data=request.data)
+          if serializer.is_valid():
+            guid = serializer.validated_data['guid']
+            logger.info(f"Validating GUID: {guid}")
+            validate = GUM_API.GUM_Requests()
+            validate.ValidateUserByGuid(guid)
             serializer.save()
-            return Response({"status": "Success [ User was aded as an internal user...]",
-                            "data":serializer.data},
-                            status=status.HTTP_200_OK)
-               
-                    #addUser = GUM_API.GUM_Requests()
-                    #addUser.AddGroupMember(groupGUID_External, guid, password_prod, user_prod)
-                    #serializer.save()
-                    #return Response({"status": "Success [ User was aded as an external user...]",
-                     #       "data":serializer.data},
-                      #      status=status.HTTP_200_OK)
+          else:
+            logger.error(f"Invalid GUID: {guid}")
+            return Response({'error': 'Invalid GUID'},
+                        status=HTTP_404_NOT_FOUND)
 
 
-        #validate_user = GUM_API.GUM_Requests
-        #validate_user.ValidateUserByGuid(guid, password_prod, user_prod)
-        
-'''
-        root = ET.fromstring(GUM_API.xml)
-        for child in root: 
-            pass
-        for x in child:
-            pass
-        for y in x:
-            status = y[0].text
-            FirstName = y[1][1].text
-            SecondName = y[1][2].text
-            EmailAddress = y[1][3].text
-            FullName = FirstName + " " + SecondName
-            print("Email Address: ",EmailAddress)
-            print ("Fullname: ", FullName)
-            FullName.save(update_fields=['user_name'])
-            EmailAddress.save(update_fields=['email_address'])
-'''
             
-       
+          '''     
+              addUser = GUM_API.GUM_Requests()
+              addUser.AddGroupMember(groupGUID_Internal, guid, password_prod, user_prod)
+            #need to check the response
+                return Response({"status": "Success [ User was added to - gx_github_users_p001 - group...]",
+                                "data":serializer.data},
+                                 status=status.HTTP_200_OK)  
+            '''     
+
+
 @csrf_exempt
 @api_view(["GET"])
 def get_user(request):
@@ -120,10 +88,6 @@ def get_user(request):
         serializer = UserSerializer(items, many=True)
         return Response({"status": "success", 
                             "data": serializer.data},  
-  
-  
-  
-  
                             status=status.HTTP_200_OK)
 """
 def patch():

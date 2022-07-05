@@ -9,10 +9,7 @@
 <br/>
 {% for user in users %}
 {{user}}  - <h1>GUID: {{ user.guid }}</h1>  <br/><h1>-Email: {{ user.email_address }}</h1>
-<br/><h1>-Account state: {{ user.state }}</h1>
-<br/><h1>-Owner: {{ user.owner }}</h1>
-<br/><h1>-PwC PPI: {{ user.PwC_PPI }}</h1>
-<br/><h1>-Project: {{ user.owner_Project }}</h1>
+<br/><h1>-PwC PPI: {{ user.ppi_code }}</h1>
 <br/><h1>-Account Type: {{ user.account_Type }}</h1>
 
 </center>

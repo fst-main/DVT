@@ -4,4 +4,4 @@ from .models import EventApp
 class UserSerializer(serializers.HyperlinkedModelSerializer):
     class Meta:
         model = EventApp
-        fields = ('account_type', 'guid', 'team_name', 'wbs_code', 'ticket_number')
+        fields = ('guid', 'team_name', 'ticket_number')
