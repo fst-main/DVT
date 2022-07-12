@@ -7,6 +7,7 @@ from .serializers import UserSerializer
 #from rest_framework.permissions import IsAuthenticated
 from django.shortcuts import get_object_or_404
 from rest_framework import status
+import lxml.etree as etree
 from django.contrib.auth import authenticate
 from django.views.decorators.csrf import csrf_exempt
 from rest_framework.authtoken.models import Token
@@ -17,6 +18,7 @@ from rest_framework.views import APIView
 import xml.etree.ElementTree as ET
 from .models import EventApp
 from .import GUM_API
+from .import SNow_API
 import logging
 import requests
 from rest_framework.status import (
@@ -31,7 +33,6 @@ LOG_FORMAT = "%(levelname)s %(asctime)s - %(message)s"
 logging.basicConfig(filename="C:\\DevOpsTools_Automation\\Automation%20Platform\\logs\\models.log",
                         level=logging.DEBUG, format=LOG_FORMAT)
 logger=logging.getLogger()
-
 
 
 
@@ -53,32 +54,82 @@ def login(request):
     return Response({'token': token.key},
                     status=HTTP_200_OK)
 
-
+'''
 @csrf_exempt
 @api_view(["POST"])
 def post_user(request):
           serializer = UserSerializer(data=request.data)
           if serializer.is_valid():
+             guid = serializer.validated_data['guid']
+             team_name = serializer.validated_data['team_name']
+             ticket = serializer.validated_data['ticket_number']
+             logger.info(f"Validating GUID: {guid}")
+             validate = GUM_API.GUM_Requests()
+             validate.ValidateUserByGuid(guid)
+             response = etree.parse("C:\\DevOpsTools_Automation\\Automation%20Platform\\DVT_api\\data.xml")
+             xmlToString = etree.tostring(response, pretty_print=True)
+             root = etree.fromstring(xmlToString)
+             for child in root:
+               pass
+             for children in child:
+               pass
+             for children1 in children:
+                email_address = children1[1][3].text
+                user_name = children1[1][1].text + " " + children1[1][2].text
+             serializer.save()
+             create_ritm = SNow_API.ServiceNowAPICalls()
+             create_ritm.create_sc_ritm_item(guid, team_name, email_address, user_name)
+          else:
+            logger.error(f"Invalid GUID.....")
+            return Response({'error': 'Invalid GUID'},
+                        status=HTTP_404_NOT_FOUND)
+'''
+
+@csrf_exempt
+@api_view(["POST"])
+def post_user(request):
+        serializer = UserSerializer(data=request.data)
+        if serializer.is_valid():
             guid = serializer.validated_data['guid']
+            team_name = serializer.validated_data['team_name']
+            ticket = serializer.validated_data['ticket_number']
             logger.info(f"Validating GUID: {guid}")
             validate = GUM_API.GUM_Requests()
             validate.ValidateUserByGuid(guid)
+            logger.info("Preparing data for Service Now process!")
+            response = etree.parse("C:\\DevOpsTools_Automation\\Automation%20Platform\\DVT_api\\data.xml")
+            xmlToString = etree.tostring(response, pretty_print=True)
+            root = etree.fromstring(xmlToString)
+            for child in root:
+               pass
+            for children in child:
+               pass
+            for children1 in children:
+                email_address = children1[1][3].text
+                user_name = children1[1][1].text + " " + children1[1][2].text
+            logger.info(f"User has no Service Now RITM, creating a new one.......")
+            create_ritm = SNow_API.ServiceNowAPICalls()
+            create_ritm.create_sc_ritm_item(guid, team_name, email_address, user_name)
+            create_ritm.close_record_active_task
             serializer.save()
-          else:
-            logger.error(f"Invalid GUID: {guid}")
-            return Response({'error': 'Invalid GUID'},
-                        status=HTTP_404_NOT_FOUND)
-
+            logger.info("User checked and saved...")
+            return Response({"status": "success",
+                            "data":serializer.data},
+                            status=status.HTTP_200_OK)
+        else:
+            return Response({"status": "error",
+                            "data":serializer.errors},
+                            status=status.HTTP_400_BAD_REQUEST)
 
             
-          '''     
+'''     
               addUser = GUM_API.GUM_Requests()
               addUser.AddGroupMember(groupGUID_Internal, guid, password_prod, user_prod)
             #need to check the response
                 return Response({"status": "Success [ User was added to - gx_github_users_p001 - group...]",
                                 "data":serializer.data},
                                  status=status.HTTP_200_OK)  
-            '''     
+'''     
 
 
 @csrf_exempt

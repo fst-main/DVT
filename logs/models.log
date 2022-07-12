@@ -460,3 +460,486 @@ DEBUG 2022-06-13 13:36:12,477 - Using proactor: IocpProactor
 DEBUG 2022-06-13 13:36:13,025 - Using proactor: IocpProactor
 INFO 2022-06-13 13:36:21,955 - Watching for file changes with StatReloader
 WARNING 2022-06-13 13:36:31,228 - Not Found: /
+INFO 2022-07-12 15:11:10,573 - Watching for file changes with StatReloader
+DEBUG 2022-07-12 15:11:11,160 - Starting new HTTPS connection (1): api.pwc.com:443
+DEBUG 2022-07-12 15:11:16,044 - https://api.pwc.com:443 "POST /pwcnetwork/service_now/api/ipwc/request_item/create/d954573ddbe53340a416f5261d9619c0/ritm_nv HTTP/1.1" 201 137
+INFO 2022-07-12 15:11:16,050 - RITM RITM8954921 was created...
+DEBUG 2022-07-12 15:11:16,055 - Starting new HTTPS connection (1): api.pwc.com:443
+DEBUG 2022-07-12 15:11:17,015 - https://api.pwc.com:443 "GET /pwcnetwork/service_now/api/now/table/sc_task?sysparm_query=active%3Dtrue%5Erequest_item.number%3DRITM8954921&sysparm_fields=sys_id,number HTTP/1.1" 200 103
+DEBUG 2022-07-12 15:11:18,835 - https://api.pwc.com:443 "PATCH /pwcnetwork/service_now/api/now/table/sc_task/079c1b871ba05d589bfe859ee54bcb0e HTTP/1.1" 200 1063
+WARNING 2022-07-12 15:15:17,934 - Unauthorized: /api/post_user
+WARNING 2022-07-12 15:16:19,251 - Not Found: /
+WARNING 2022-07-12 15:16:19,454 - Not Found: /favicon.ico
+ERROR 2022-07-12 15:17:08,595 - Internal Server Error: /api/post_user
+Traceback (most recent call last):
+  File "C:\Users\candon001\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\candon001\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\candon001\AppData\Local\Programs\Python\Python39\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\candon001\AppData\Local\Programs\Python\Python39\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\candon001\AppData\Local\Programs\Python\Python39\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\candon001\AppData\Local\Programs\Python\Python39\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\candon001\AppData\Local\Programs\Python\Python39\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\candon001\AppData\Local\Programs\Python\Python39\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\candon001\AppData\Local\Programs\Python\Python39\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\candon001\AppData\Local\Programs\Python\Python39\lib\site-packages\rest_framework\decorators.py", line 50, in handler
+    return func(*args, **kwargs)
+  File "C:\DevOpsTools_Automation\Automation%20Platform\DVT_api\views.py", line 63, in post_user
+    guid = serializer.validated_data['guid']
+  File "C:\Users\candon001\AppData\Local\Programs\Python\Python39\lib\site-packages\rest_framework\serializers.py", line 271, in validated_data
+    raise AssertionError(msg)
+AssertionError: You must call `.is_valid()` before accessing `.validated_data`.
+INFO 2022-07-12 15:19:56,697 - C:\DevOpsTools_Automation\Automation%20Platform\DVT_api\views.py changed, reloading.
+DEBUG 2022-07-12 15:19:56,709 - Using proactor: IocpProactor
+INFO 2022-07-12 15:19:58,298 - Watching for file changes with StatReloader
+DEBUG 2022-07-12 15:19:58,777 - Starting new HTTPS connection (1): api.pwc.com:443
+DEBUG 2022-07-12 15:20:02,216 - https://api.pwc.com:443 "POST /pwcnetwork/service_now/api/ipwc/request_item/create/d954573ddbe53340a416f5261d9619c0/ritm_nv HTTP/1.1" 201 138
+INFO 2022-07-12 15:20:02,222 - RITM RITM8955040 was created...
+DEBUG 2022-07-12 15:20:02,226 - Starting new HTTPS connection (1): api.pwc.com:443
+DEBUG 2022-07-12 15:20:03,524 - https://api.pwc.com:443 "GET /pwcnetwork/service_now/api/now/table/sc_task?sysparm_query=active%3Dtrue%5Erequest_item.number%3DRITM8955040&sysparm_fields=sys_id,number HTTP/1.1" 200 103
+DEBUG 2022-07-12 15:20:05,133 - https://api.pwc.com:443 "PATCH /pwcnetwork/service_now/api/now/table/sc_task/6f9e53071ba85d58f96c6282b24bcbf1 HTTP/1.1" 200 1064
+ERROR 2022-07-12 15:20:30,827 - Internal Server Error: /api/post_user
+Traceback (most recent call last):
+  File "C:\Users\candon001\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\candon001\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\candon001\AppData\Local\Programs\Python\Python39\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\candon001\AppData\Local\Programs\Python\Python39\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\candon001\AppData\Local\Programs\Python\Python39\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\candon001\AppData\Local\Programs\Python\Python39\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\candon001\AppData\Local\Programs\Python\Python39\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\candon001\AppData\Local\Programs\Python\Python39\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\candon001\AppData\Local\Programs\Python\Python39\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\candon001\AppData\Local\Programs\Python\Python39\lib\site-packages\rest_framework\decorators.py", line 50, in handler
+    return func(*args, **kwargs)
+  File "C:\DevOpsTools_Automation\Automation%20Platform\DVT_api\views.py", line 84, in post_user
+    logger.error(f"Invalid GUID: {guid}")
+UnboundLocalError: local variable 'guid' referenced before assignment
+INFO 2022-07-12 15:21:36,992 - C:\DevOpsTools_Automation\Automation%20Platform\DVT_api\views.py changed, reloading.
+DEBUG 2022-07-12 15:21:36,993 - Using proactor: IocpProactor
+INFO 2022-07-12 15:21:38,917 - Watching for file changes with StatReloader
+DEBUG 2022-07-12 15:21:39,335 - Starting new HTTPS connection (1): api.pwc.com:443
+DEBUG 2022-07-12 15:21:42,189 - https://api.pwc.com:443 "POST /pwcnetwork/service_now/api/ipwc/request_item/create/d954573ddbe53340a416f5261d9619c0/ritm_nv HTTP/1.1" 201 137
+INFO 2022-07-12 15:21:42,195 - RITM RITM8955070 was created...
+DEBUG 2022-07-12 15:21:42,199 - Starting new HTTPS connection (1): api.pwc.com:443
+DEBUG 2022-07-12 15:21:42,761 - https://api.pwc.com:443 "GET /pwcnetwork/service_now/api/now/table/sc_task?sysparm_query=active%3Dtrue%5Erequest_item.number%3DRITM8955070&sysparm_fields=sys_id,number HTTP/1.1" 200 103
+DEBUG 2022-07-12 15:21:43,960 - https://api.pwc.com:443 "PATCH /pwcnetwork/service_now/api/now/table/sc_task/cc0f134b1be8d598e05a4152b24bcb64 HTTP/1.1" 200 1062
+ERROR 2022-07-12 15:21:56,859 - Invalid GUID.....
+WARNING 2022-07-12 15:21:56,860 - Not Found: /api/post_user
+INFO 2022-07-12 15:25:33,401 - C:\DevOpsTools_Automation\Automation%20Platform\DVT_api\views.py changed, reloading.
+DEBUG 2022-07-12 15:25:33,402 - Using proactor: IocpProactor
+INFO 2022-07-12 15:25:36,732 - Watching for file changes with StatReloader
+DEBUG 2022-07-12 15:25:37,203 - Starting new HTTPS connection (1): api.pwc.com:443
+DEBUG 2022-07-12 15:25:41,178 - https://api.pwc.com:443 "POST /pwcnetwork/service_now/api/ipwc/request_item/create/d954573ddbe53340a416f5261d9619c0/ritm_nv HTTP/1.1" 201 135
+INFO 2022-07-12 15:25:41,181 - RITM RITM8955111 was created...
+DEBUG 2022-07-12 15:25:41,183 - Starting new HTTPS connection (1): api.pwc.com:443
+DEBUG 2022-07-12 15:25:41,953 - https://api.pwc.com:443 "GET /pwcnetwork/service_now/api/now/table/sc_task?sysparm_query=active%3Dtrue%5Erequest_item.number%3DRITM8955111&sysparm_fields=sys_id,number HTTP/1.1" 200 103
+DEBUG 2022-07-12 15:25:43,407 - https://api.pwc.com:443 "PATCH /pwcnetwork/service_now/api/now/table/sc_task/4eef93cb1be855984d78cb75464bcb5f HTTP/1.1" 200 1067
+ERROR 2022-07-12 15:25:53,399 - Invalid GUID.....
+WARNING 2022-07-12 15:25:53,400 - Not Found: /api/post_user
+INFO 2022-07-12 15:49:27,682 - C:\DevOpsTools_Automation\Automation%20Platform\DVT_api\views.py changed, reloading.
+DEBUG 2022-07-12 15:49:27,683 - Using proactor: IocpProactor
+INFO 2022-07-12 15:49:30,205 - Watching for file changes with StatReloader
+DEBUG 2022-07-12 15:49:30,649 - Starting new HTTPS connection (1): api.pwc.com:443
+DEBUG 2022-07-12 15:49:34,380 - https://api.pwc.com:443 "POST /pwcnetwork/service_now/api/ipwc/request_item/create/d954573ddbe53340a416f5261d9619c0/ritm_nv HTTP/1.1" 201 137
+INFO 2022-07-12 15:49:34,382 - RITM RITM8955488 was created...
+DEBUG 2022-07-12 15:49:34,384 - Starting new HTTPS connection (1): api.pwc.com:443
+DEBUG 2022-07-12 15:49:35,600 - https://api.pwc.com:443 "GET /pwcnetwork/service_now/api/now/table/sc_task?sysparm_query=active%3Dtrue%5Erequest_item.number%3DRITM8955488&sysparm_fields=sys_id,number HTTP/1.1" 200 103
+DEBUG 2022-07-12 15:49:37,179 - https://api.pwc.com:443 "PATCH /pwcnetwork/service_now/api/now/table/sc_task/006523431becd598e05a4152b24bcb97 HTTP/1.1" 200 1070
+ERROR 2022-07-12 15:49:55,240 - Invalid GUID.....
+WARNING 2022-07-12 15:49:55,241 - Not Found: /api/post_user
+INFO 2022-07-12 15:51:24,763 - C:\DevOpsTools_Automation\Automation%20Platform\DVT_api\views.py changed, reloading.
+DEBUG 2022-07-12 15:51:24,764 - Using proactor: IocpProactor
+INFO 2022-07-12 15:51:26,305 - Watching for file changes with StatReloader
+DEBUG 2022-07-12 15:51:26,744 - Starting new HTTPS connection (1): api.pwc.com:443
+DEBUG 2022-07-12 15:51:30,387 - https://api.pwc.com:443 "POST /pwcnetwork/service_now/api/ipwc/request_item/create/d954573ddbe53340a416f5261d9619c0/ritm_nv HTTP/1.1" 201 137
+INFO 2022-07-12 15:51:30,389 - RITM RITM8955534 was created...
+DEBUG 2022-07-12 15:51:30,391 - Starting new HTTPS connection (1): api.pwc.com:443
+DEBUG 2022-07-12 15:51:31,253 - https://api.pwc.com:443 "GET /pwcnetwork/service_now/api/now/table/sc_task?sysparm_query=active%3Dtrue%5Erequest_item.number%3DRITM8955534&sysparm_fields=sys_id,number HTTP/1.1" 200 103
+DEBUG 2022-07-12 15:51:32,614 - https://api.pwc.com:443 "PATCH /pwcnetwork/service_now/api/now/table/sc_task/20d5230f1bec5d58f96c6282b24bcb80 HTTP/1.1" 200 1066
+ERROR 2022-07-12 15:51:43,708 - Invalid GUID.....
+WARNING 2022-07-12 15:51:43,709 - Not Found: /api/post_user
+ERROR 2022-07-12 15:52:04,055 - Invalid GUID.....
+WARNING 2022-07-12 15:52:04,055 - Not Found: /api/post_user
+INFO 2022-07-12 15:52:50,853 - C:\DevOpsTools_Automation\Automation%20Platform\DVT_api\views.py changed, reloading.
+DEBUG 2022-07-12 15:52:50,854 - Using proactor: IocpProactor
+INFO 2022-07-12 15:52:52,575 - Watching for file changes with StatReloader
+DEBUG 2022-07-12 15:52:53,020 - Starting new HTTPS connection (1): api.pwc.com:443
+DEBUG 2022-07-12 15:52:55,931 - https://api.pwc.com:443 "POST /pwcnetwork/service_now/api/ipwc/request_item/create/d954573ddbe53340a416f5261d9619c0/ritm_nv HTTP/1.1" 201 137
+INFO 2022-07-12 15:52:55,934 - RITM RITM8955548 was created...
+DEBUG 2022-07-12 15:52:55,937 - Starting new HTTPS connection (1): api.pwc.com:443
+DEBUG 2022-07-12 15:52:56,644 - https://api.pwc.com:443 "GET /pwcnetwork/service_now/api/now/table/sc_task?sysparm_query=active%3Dtrue%5Erequest_item.number%3DRITM8955548&sysparm_fields=sys_id,number HTTP/1.1" 200 103
+DEBUG 2022-07-12 15:52:58,163 - https://api.pwc.com:443 "PATCH /pwcnetwork/service_now/api/now/table/sc_task/d9262f471becd598e05a4152b24bcb04 HTTP/1.1" 200 1062
+INFO 2022-07-12 15:53:28,412 - C:\DevOpsTools_Automation\Automation%20Platform\DVT_api\SNow_API.py changed, reloading.
+DEBUG 2022-07-12 15:53:28,413 - Using proactor: IocpProactor
+INFO 2022-07-12 15:53:30,105 - Watching for file changes with StatReloader
+ERROR 2022-07-12 15:53:43,434 - Invalid GUID.....
+WARNING 2022-07-12 15:53:43,434 - Not Found: /api/post_user
+INFO 2022-07-12 15:54:09,421 - C:\DevOpsTools_Automation\Automation%20Platform\DVT_api\views.py changed, reloading.
+DEBUG 2022-07-12 15:54:09,424 - Using proactor: IocpProactor
+INFO 2022-07-12 15:54:11,117 - Watching for file changes with StatReloader
+INFO 2022-07-12 15:57:23,823 - C:\DevOpsTools_Automation\Automation%20Platform\DVT_api\views.py changed, reloading.
+DEBUG 2022-07-12 15:57:23,824 - Using proactor: IocpProactor
+INFO 2022-07-12 15:57:25,944 - Watching for file changes with StatReloader
+ERROR 2022-07-12 15:57:56,347 - Invalid GUID.....
+WARNING 2022-07-12 15:57:56,348 - Not Found: /api/post_user
+WARNING 2022-07-12 16:01:05,430 - Method Not Allowed: /api/get_user
+ERROR 2022-07-12 16:01:17,212 - Invalid GUID.....
+WARNING 2022-07-12 16:01:17,213 - Not Found: /api/post_user
+INFO 2022-07-12 16:07:15,482 - C:\DevOpsTools_Automation\Automation%20Platform\DVT_api\views.py changed, reloading.
+DEBUG 2022-07-12 16:07:15,483 - Using proactor: IocpProactor
+INFO 2022-07-12 16:07:16,993 - Watching for file changes with StatReloader
+ERROR 2022-07-12 16:07:24,594 - Internal Server Error: /api/post_user
+Traceback (most recent call last):
+  File "C:\Users\candon001\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\candon001\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\candon001\AppData\Local\Programs\Python\Python39\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\candon001\AppData\Local\Programs\Python\Python39\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\candon001\AppData\Local\Programs\Python\Python39\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\candon001\AppData\Local\Programs\Python\Python39\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\candon001\AppData\Local\Programs\Python\Python39\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\candon001\AppData\Local\Programs\Python\Python39\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\candon001\AppData\Local\Programs\Python\Python39\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\candon001\AppData\Local\Programs\Python\Python39\lib\site-packages\rest_framework\decorators.py", line 50, in handler
+    return func(*args, **kwargs)
+  File "C:\DevOpsTools_Automation\Automation%20Platform\DVT_api\views.py", line 111, in post_user
+    logger.error(f"Invalid GUID: {guid}")
+UnboundLocalError: local variable 'guid' referenced before assignment
+INFO 2022-07-12 16:07:55,287 - C:\DevOpsTools_Automation\Automation%20Platform\DVT_api\views.py changed, reloading.
+DEBUG 2022-07-12 16:07:55,287 - Using proactor: IocpProactor
+INFO 2022-07-12 16:07:56,922 - Watching for file changes with StatReloader
+ERROR 2022-07-12 16:08:07,190 - Invalid GUID:
+WARNING 2022-07-12 16:08:07,191 - Not Found: /api/post_user
+INFO 2022-07-12 16:09:20,857 - C:\DevOpsTools_Automation\Automation%20Platform\DVT_api\views.py changed, reloading.
+DEBUG 2022-07-12 16:09:20,858 - Using proactor: IocpProactor
+INFO 2022-07-12 16:09:22,592 - Watching for file changes with StatReloader
+ERROR 2022-07-12 16:09:26,209 - Internal Server Error: /api/post_user
+Traceback (most recent call last):
+  File "C:\Users\candon001\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\candon001\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\candon001\AppData\Local\Programs\Python\Python39\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\candon001\AppData\Local\Programs\Python\Python39\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\candon001\AppData\Local\Programs\Python\Python39\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\candon001\AppData\Local\Programs\Python\Python39\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\candon001\AppData\Local\Programs\Python\Python39\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\candon001\AppData\Local\Programs\Python\Python39\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\candon001\AppData\Local\Programs\Python\Python39\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\candon001\AppData\Local\Programs\Python\Python39\lib\site-packages\rest_framework\decorators.py", line 50, in handler
+    return func(*args, **kwargs)
+  File "C:\DevOpsTools_Automation\Automation%20Platform\DVT_api\views.py", line 104, in post_user
+    if serializer.is_valid():
+UnboundLocalError: local variable 'serializer' referenced before assignment
+DEBUG 2022-07-12 16:28:40,872 - Using proactor: IocpProactor
+DEBUG 2022-07-12 16:28:41,005 - Using proactor: IocpProactor
+INFO 2022-07-12 16:30:24,367 - Watching for file changes with StatReloader
+ERROR 2022-07-12 16:30:36,011 - Internal Server Error: /api/post_user
+Traceback (most recent call last):
+  File "C:\Users\candon001\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\candon001\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\candon001\AppData\Local\Programs\Python\Python39\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\candon001\AppData\Local\Programs\Python\Python39\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\candon001\AppData\Local\Programs\Python\Python39\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\candon001\AppData\Local\Programs\Python\Python39\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\candon001\AppData\Local\Programs\Python\Python39\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\candon001\AppData\Local\Programs\Python\Python39\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\candon001\AppData\Local\Programs\Python\Python39\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\candon001\AppData\Local\Programs\Python\Python39\lib\site-packages\rest_framework\decorators.py", line 50, in handler
+    return func(*args, **kwargs)
+  File "C:\Users\candon001\Automation%20Platform\DVT_api\views.py", line 68, in post_user
+    logger.error(f"Invalid GUID: {guid}")
+UnboundLocalError: local variable 'guid' referenced before assignment
+INFO 2022-07-12 16:30:53,450 - C:\Users\candon001\Automation%20Platform\DVT_api\views.py changed, reloading.
+DEBUG 2022-07-12 16:30:53,450 - Using proactor: IocpProactor
+INFO 2022-07-12 16:30:55,306 - Watching for file changes with StatReloader
+ERROR 2022-07-12 16:30:59,635 - Invalid GUID:
+WARNING 2022-07-12 16:30:59,636 - Not Found: /api/post_user
+ERROR 2022-07-12 16:32:03,944 - Invalid GUID:
+WARNING 2022-07-12 16:32:03,944 - Not Found: /api/post_user
+ERROR 2022-07-12 16:32:56,962 - Invalid GUID:
+WARNING 2022-07-12 16:32:56,963 - Not Found: /api/post_user
+ERROR 2022-07-12 16:33:27,806 - Invalid GUID:
+WARNING 2022-07-12 16:33:27,807 - Not Found: /api/post_user
+WARNING 2022-07-12 16:38:04,382 - Unauthorized: /api/get_user
+ERROR 2022-07-12 16:39:51,037 - Invalid GUID:
+WARNING 2022-07-12 16:39:51,038 - Not Found: /api/post_user
+ERROR 2022-07-12 16:40:00,701 - Invalid GUID:
+WARNING 2022-07-12 16:40:00,701 - Not Found: /api/post_user
+INFO 2022-07-12 16:42:47,941 - C:\Users\candon001\Automation%20Platform\DVT_api\views.py changed, reloading.
+DEBUG 2022-07-12 16:42:47,942 - Using proactor: IocpProactor
+INFO 2022-07-12 16:42:49,530 - Watching for file changes with StatReloader
+ERROR 2022-07-12 16:42:55,673 - Invalid GUID:
+WARNING 2022-07-12 16:42:55,674 - Not Found: /api/post_user
+ERROR 2022-07-12 16:43:17,239 - Invalid GUID:
+WARNING 2022-07-12 16:43:17,239 - Not Found: /api/post_user
+ERROR 2022-07-12 16:43:55,155 - Invalid GUID:
+WARNING 2022-07-12 16:43:55,155 - Not Found: /api/post_user
+INFO 2022-07-12 16:46:14,064 - C:\Users\candon001\Automation%20Platform\DVT_api\views.py changed, reloading.
+DEBUG 2022-07-12 16:46:14,065 - Using proactor: IocpProactor
+INFO 2022-07-12 16:46:15,524 - Watching for file changes with StatReloader
+WARNING 2022-07-12 16:46:25,956 - Bad Request: /api/post_user
+INFO 2022-07-12 16:49:46,194 - C:\Users\candon001\Automation%20Platform\DVT_api\views.py changed, reloading.
+DEBUG 2022-07-12 16:49:46,195 - Using proactor: IocpProactor
+INFO 2022-07-12 16:49:47,652 - Watching for file changes with StatReloader
+ERROR 2022-07-12 16:49:55,514 - Invalid GUID:
+WARNING 2022-07-12 16:49:55,515 - Not Found: /api/post_user
+INFO 2022-07-12 16:51:16,686 - C:\Users\candon001\Automation%20Platform\DVT_api\views.py changed, reloading.
+DEBUG 2022-07-12 16:51:16,686 - Using proactor: IocpProactor
+INFO 2022-07-12 16:51:18,298 - Watching for file changes with StatReloader
+ERROR 2022-07-12 16:51:25,376 - Invalid GUID:
+WARNING 2022-07-12 16:51:25,377 - Not Found: /api/post_user
+INFO 2022-07-12 16:52:28,120 - C:\Users\candon001\Automation%20Platform\DVT_api\views.py changed, reloading.
+DEBUG 2022-07-12 16:52:28,120 - Using proactor: IocpProactor
+INFO 2022-07-12 16:52:29,624 - Watching for file changes with StatReloader
+ERROR 2022-07-12 16:52:33,612 - Invalid GUID:
+WARNING 2022-07-12 16:52:33,613 - Not Found: /api/post_user
+ERROR 2022-07-12 16:52:42,123 - Invalid GUID:
+WARNING 2022-07-12 16:52:42,123 - Not Found: /api/post_user
+INFO 2022-07-12 16:53:43,717 - C:\Users\candon001\Automation%20Platform\DVT_api\views.py changed, reloading.
+DEBUG 2022-07-12 16:53:43,718 - Using proactor: IocpProactor
+INFO 2022-07-12 16:53:45,256 - Watching for file changes with StatReloader
+WARNING 2022-07-12 16:53:49,343 - Bad Request: /api/post_user
+INFO 2022-07-12 16:55:30,288 - C:\Users\candon001\Automation%20Platform\DVT_api\views.py changed, reloading.
+DEBUG 2022-07-12 16:55:30,289 - Using proactor: IocpProactor
+INFO 2022-07-12 16:55:32,224 - Watching for file changes with StatReloader
+WARNING 2022-07-12 16:55:36,074 - Not Found: /api/post_user
+INFO 2022-07-12 16:56:55,846 - C:\Users\candon001\Automation%20Platform\DVT_api\views.py changed, reloading.
+DEBUG 2022-07-12 16:56:55,847 - Using proactor: IocpProactor
+INFO 2022-07-12 16:56:57,943 - Watching for file changes with StatReloader
+WARNING 2022-07-12 16:57:04,266 - Bad Request: /api/post_user
+DEBUG 2022-07-12 17:01:12,178 - Using proactor: IocpProactor
+DEBUG 2022-07-12 17:01:12,314 - Using proactor: IocpProactor
+INFO 2022-07-12 17:03:12,495 - Watching for file changes with StatReloader
+INFO 2022-07-12 17:03:53,907 - C:\DevOpsTools_Automation\Automation%20Platform\DVT_api\views.py changed, reloading.
+DEBUG 2022-07-12 17:03:53,907 - Using proactor: IocpProactor
+INFO 2022-07-12 17:03:55,568 - Watching for file changes with StatReloader
+WARNING 2022-07-12 17:04:00,496 - Bad Request: /api/post_user
+INFO 2022-07-12 17:04:57,839 - Validating GUID: rbularca
+DEBUG 2022-07-12 17:04:57,845 - Starting new HTTPS connection (1): gumapiservice.pwcinternal.com:443
+DEBUG 2022-07-12 17:04:59,862 - https://gumapiservice.pwcinternal.com:443 "POST /GumService.asmx?wsdl HTTP/1.1" 200 486
+ERROR 2022-07-12 17:05:00,045 - Internal Server Error: /api/post_user
+Traceback (most recent call last):
+  File "C:\Users\candon001\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\candon001\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\candon001\AppData\Local\Programs\Python\Python39\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\candon001\AppData\Local\Programs\Python\Python39\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\candon001\AppData\Local\Programs\Python\Python39\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\candon001\AppData\Local\Programs\Python\Python39\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\candon001\AppData\Local\Programs\Python\Python39\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\candon001\AppData\Local\Programs\Python\Python39\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\candon001\AppData\Local\Programs\Python\Python39\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\candon001\AppData\Local\Programs\Python\Python39\lib\site-packages\rest_framework\decorators.py", line 50, in handler
+    return func(*args, **kwargs)
+  File "C:\DevOpsTools_Automation\Automation%20Platform\DVT_api\views.py", line 115, in post_user
+    serializer.save()
+  File "C:\Users\candon001\AppData\Local\Programs\Python\Python39\lib\site-packages\rest_framework\serializers.py", line 212, in save
+    self.instance = self.create(validated_data)
+  File "C:\Users\candon001\AppData\Local\Programs\Python\Python39\lib\site-packages\rest_framework\serializers.py", line 962, in create
+    instance = ModelClass._default_manager.create(**validated_data)
+  File "C:\Users\candon001\AppData\Local\Programs\Python\Python39\lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\Users\candon001\AppData\Local\Programs\Python\Python39\lib\site-packages\django\db\models\query.py", line 453, in create
+    obj.save(force_insert=True, using=self.db)
+  File "C:\DevOpsTools_Automation\Automation%20Platform\DVT_api\models.py", line 44, in save
+    self.email_address = children1[1][3].text
+  File "src\lxml\etree.pyx", line 1161, in lxml.etree._Element.__getitem__
+IndexError: list index out of range
+INFO 2022-07-12 17:06:32,986 - Validating GUID: candon001
+DEBUG 2022-07-12 17:06:32,987 - Starting new HTTPS connection (1): gumapiservice.pwcinternal.com:443
+DEBUG 2022-07-12 17:06:35,267 - https://gumapiservice.pwcinternal.com:443 "POST /GumService.asmx?wsdl HTTP/1.1" 200 1035
+INFO 2022-07-12 17:09:17,291 - C:\DevOpsTools_Automation\Automation%20Platform\DVT_api\views.py changed, reloading.
+DEBUG 2022-07-12 17:09:17,292 - Using proactor: IocpProactor
+INFO 2022-07-12 17:09:19,421 - Watching for file changes with StatReloader
+INFO 2022-07-12 17:09:23,154 - Validating GUID: candon001
+DEBUG 2022-07-12 17:09:23,157 - Starting new HTTPS connection (1): gumapiservice.pwcinternal.com:443
+DEBUG 2022-07-12 17:09:25,104 - https://gumapiservice.pwcinternal.com:443 "POST /GumService.asmx?wsdl HTTP/1.1" 200 1035
+INFO 2022-07-12 17:10:11,529 - C:\DevOpsTools_Automation\Automation%20Platform\DVT_api\views.py changed, reloading.
+DEBUG 2022-07-12 17:10:11,530 - Using proactor: IocpProactor
+INFO 2022-07-12 17:10:13,145 - Watching for file changes with StatReloader
+INFO 2022-07-12 17:10:19,410 - Validating GUID: candon001
+DEBUG 2022-07-12 17:10:19,418 - Starting new HTTPS connection (1): gumapiservice.pwcinternal.com:443
+DEBUG 2022-07-12 17:10:21,588 - https://gumapiservice.pwcinternal.com:443 "POST /GumService.asmx?wsdl HTTP/1.1" 200 1035
+INFO 2022-07-12 17:11:30,938 - C:\DevOpsTools_Automation\Automation%20Platform\DVT_api\views.py changed, reloading.
+DEBUG 2022-07-12 17:11:30,939 - Using proactor: IocpProactor
+INFO 2022-07-12 17:11:32,650 - Watching for file changes with StatReloader
+INFO 2022-07-12 17:11:41,249 - Validating GUID: candon001
+DEBUG 2022-07-12 17:11:41,253 - Starting new HTTPS connection (1): gumapiservice.pwcinternal.com:443
+DEBUG 2022-07-12 17:11:43,302 - https://gumapiservice.pwcinternal.com:443 "POST /GumService.asmx?wsdl HTTP/1.1" 200 1035
+INFO 2022-07-12 17:14:37,404 - C:\DevOpsTools_Automation\Automation%20Platform\DVT_api\views.py changed, reloading.
+DEBUG 2022-07-12 17:14:37,405 - Using proactor: IocpProactor
+INFO 2022-07-12 17:14:39,672 - Watching for file changes with StatReloader
+INFO 2022-07-12 17:14:45,068 - Validating GUID: candon001
+DEBUG 2022-07-12 17:14:45,072 - Starting new HTTPS connection (1): gumapiservice.pwcinternal.com:443
+DEBUG 2022-07-12 17:14:47,051 - https://gumapiservice.pwcinternal.com:443 "POST /GumService.asmx?wsdl HTTP/1.1" 200 1035
+INFO 2022-07-12 17:26:07,525 - C:\DevOpsTools_Automation\Automation%20Platform\DVT_api\SNow_API.py changed, reloading.
+DEBUG 2022-07-12 17:26:07,528 - Using proactor: IocpProactor
+INFO 2022-07-12 17:26:10,727 - Watching for file changes with StatReloader
+INFO 2022-07-12 17:26:22,088 - Validating GUID: candon001
+DEBUG 2022-07-12 17:26:22,092 - Starting new HTTPS connection (1): gumapiservice.pwcinternal.com:443
+DEBUG 2022-07-12 17:26:24,172 - https://gumapiservice.pwcinternal.com:443 "POST /GumService.asmx?wsdl HTTP/1.1" 200 1035
+INFO 2022-07-12 17:28:27,525 - C:\DevOpsTools_Automation\Automation%20Platform\DVT_api\SNow_API.py changed, reloading.
+DEBUG 2022-07-12 17:28:27,526 - Using proactor: IocpProactor
+INFO 2022-07-12 17:28:29,979 - Watching for file changes with StatReloader
+INFO 2022-07-12 17:28:36,684 - Validating GUID: candon001
+DEBUG 2022-07-12 17:28:36,687 - Starting new HTTPS connection (1): gumapiservice.pwcinternal.com:443
+DEBUG 2022-07-12 17:28:38,918 - https://gumapiservice.pwcinternal.com:443 "POST /GumService.asmx?wsdl HTTP/1.1" 200 1035
+INFO 2022-07-12 17:34:50,538 - Validating GUID: ftanasa001
+DEBUG 2022-07-12 17:34:50,539 - Starting new HTTPS connection (1): gumapiservice.pwcinternal.com:443
+DEBUG 2022-07-12 17:34:53,256 - https://gumapiservice.pwcinternal.com:443 "POST /GumService.asmx?wsdl HTTP/1.1" 200 1035
+INFO 2022-07-12 17:44:09,782 - C:\DevOpsTools_Automation\Automation%20Platform\DVT_api\views.py changed, reloading.
+DEBUG 2022-07-12 17:44:09,783 - Using proactor: IocpProactor
+INFO 2022-07-12 17:44:13,163 - Watching for file changes with StatReloader
+INFO 2022-07-12 17:44:19,791 - Validating GUID: ftanasa001
+DEBUG 2022-07-12 17:44:19,797 - Starting new HTTPS connection (1): gumapiservice.pwcinternal.com:443
+DEBUG 2022-07-12 17:44:21,651 - https://gumapiservice.pwcinternal.com:443 "POST /GumService.asmx?wsdl HTTP/1.1" 200 1035
+INFO 2022-07-12 17:50:38,690 - C:\DevOpsTools_Automation\Automation%20Platform\DVT_api\views.py changed, reloading.
+DEBUG 2022-07-12 17:50:38,691 - Using proactor: IocpProactor
+INFO 2022-07-12 17:50:40,560 - Watching for file changes with StatReloader
+INFO 2022-07-12 17:50:52,397 - Validating GUID: ftanasa001
+DEBUG 2022-07-12 17:50:52,401 - Starting new HTTPS connection (1): gumapiservice.pwcinternal.com:443
+DEBUG 2022-07-12 17:50:54,567 - https://gumapiservice.pwcinternal.com:443 "POST /GumService.asmx?wsdl HTTP/1.1" 200 1035
+INFO 2022-07-12 17:52:43,486 - Watching for file changes with StatReloader
+INFO 2022-07-12 17:52:52,187 - Validating GUID: ftanasa001
+DEBUG 2022-07-12 17:52:52,196 - Starting new HTTPS connection (1): gumapiservice.pwcinternal.com:443
+DEBUG 2022-07-12 17:52:54,175 - https://gumapiservice.pwcinternal.com:443 "POST /GumService.asmx?wsdl HTTP/1.1" 200 1035
+INFO 2022-07-12 17:55:54,560 - C:\DevOpsTools_Automation\Automation%20Platform\DVT_api\views.py changed, reloading.
+DEBUG 2022-07-12 17:55:54,561 - Using proactor: IocpProactor
+INFO 2022-07-12 17:55:56,521 - Watching for file changes with StatReloader
+INFO 2022-07-12 17:56:06,592 - Validating GUID: ftanasa001
+DEBUG 2022-07-12 17:56:06,596 - Starting new HTTPS connection (1): gumapiservice.pwcinternal.com:443
+DEBUG 2022-07-12 17:56:09,283 - https://gumapiservice.pwcinternal.com:443 "POST /GumService.asmx?wsdl HTTP/1.1" 200 1035
+INFO 2022-07-12 17:59:27,069 - C:\DevOpsTools_Automation\Automation%20Platform\DVT_api\views.py changed, reloading.
+DEBUG 2022-07-12 17:59:27,070 - Using proactor: IocpProactor
+INFO 2022-07-12 17:59:30,074 - Watching for file changes with StatReloader
+INFO 2022-07-12 18:00:31,108 - C:\DevOpsTools_Automation\Automation%20Platform\DVT_api\views.py changed, reloading.
+DEBUG 2022-07-12 18:00:31,109 - Using proactor: IocpProactor
+INFO 2022-07-12 18:00:33,820 - Watching for file changes with StatReloader
+INFO 2022-07-12 18:02:27,221 - C:\DevOpsTools_Automation\Automation%20Platform\DVT_api\views.py changed, reloading.
+DEBUG 2022-07-12 18:02:27,222 - Using proactor: IocpProactor
+INFO 2022-07-12 18:02:29,545 - Watching for file changes with StatReloader
+INFO 2022-07-12 18:03:08,339 - Validating GUID: ftanasa001
+DEBUG 2022-07-12 18:03:08,344 - Starting new HTTPS connection (1): gumapiservice.pwcinternal.com:443
+DEBUG 2022-07-12 18:03:10,594 - https://gumapiservice.pwcinternal.com:443 "POST /GumService.asmx?wsdl HTTP/1.1" 200 1035
+INFO 2022-07-12 18:03:10,596 - Preparing data for Service Now process!
+INFO 2022-07-12 18:03:10,604 - User has no Service Now RITM, creating a new one.......
+INFO 2022-07-12 18:03:10,604 - Creating new RITM.....
+DEBUG 2022-07-12 18:03:10,606 - Starting new HTTPS connection (1): api.pwc.com:443
+DEBUG 2022-07-12 18:03:15,184 - https://api.pwc.com:443 "POST /pwcnetwork/service_now/api/ipwc/request_item/create/d954573ddbe53340a416f5261d9619c0/ritm_nv HTTP/1.1" 201 137
+INFO 2022-07-12 18:03:15,190 - RITM RITM8957766 was created...
+DEBUG 2022-07-12 18:03:15,193 - Starting new HTTPS connection (1): api.pwc.com:443
+DEBUG 2022-07-12 18:03:17,194 - https://api.pwc.com:443 "GET /pwcnetwork/service_now/api/now/table/sc_task?sysparm_query=active%3Dtrue%5Erequest_item.number%3DRITM8957766&sysparm_fields=sys_id,number HTTP/1.1" 200 103
+INFO 2022-07-12 18:03:17,202 - User checked and saved...
+DEBUG 2022-07-12 18:05:58,614 - Using proactor: IocpProactor
+DEBUG 2022-07-12 18:05:58,773 - Using proactor: IocpProactor
+INFO 2022-07-12 18:06:06,247 - Watching for file changes with StatReloader
+INFO 2022-07-12 18:08:00,745 - Validating GUID: rburlaca001
+DEBUG 2022-07-12 18:08:00,855 - Starting new HTTPS connection (1): gumapiservice.pwcinternal.com:443
+DEBUG 2022-07-12 18:08:03,235 - https://gumapiservice.pwcinternal.com:443 "POST /GumService.asmx?wsdl HTTP/1.1" 200 486
+INFO 2022-07-12 18:08:03,257 - Preparing data for Service Now process!
+ERROR 2022-07-12 18:08:06,927 - Internal Server Error: /api/post_user
+Traceback (most recent call last):
+  File "C:\Users\candon001\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\candon001\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\candon001\AppData\Local\Programs\Python\Python39\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\candon001\AppData\Local\Programs\Python\Python39\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\candon001\AppData\Local\Programs\Python\Python39\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\candon001\AppData\Local\Programs\Python\Python39\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\candon001\AppData\Local\Programs\Python\Python39\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\candon001\AppData\Local\Programs\Python\Python39\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\candon001\AppData\Local\Programs\Python\Python39\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\candon001\AppData\Local\Programs\Python\Python39\lib\site-packages\rest_framework\decorators.py", line 50, in handler
+    return func(*args, **kwargs)
+  File "C:\DevOpsTools_Automation\Automation%20Platform\DVT_api\views.py", line 108, in post_user
+    email_address = children1[1][3].text
+  File "src\lxml\etree.pyx", line 1161, in lxml.etree._Element.__getitem__
+IndexError: list index out of range
+INFO 2022-07-12 18:09:24,360 - Validating GUID: rbularca001
+DEBUG 2022-07-12 18:09:24,375 - Starting new HTTPS connection (1): gumapiservice.pwcinternal.com:443
+DEBUG 2022-07-12 18:09:26,554 - https://gumapiservice.pwcinternal.com:443 "POST /GumService.asmx?wsdl HTTP/1.1" 200 1032
+INFO 2022-07-12 18:09:26,562 - Preparing data for Service Now process!
+INFO 2022-07-12 18:09:26,597 - User has no Service Now RITM, creating a new one.......
+INFO 2022-07-12 18:09:26,600 - Creating new RITM.....
+DEBUG 2022-07-12 18:09:26,608 - Starting new HTTPS connection (1): api.pwc.com:443
+DEBUG 2022-07-12 18:09:30,709 - https://api.pwc.com:443 "POST /pwcnetwork/service_now/api/ipwc/request_item/create/d954573ddbe53340a416f5261d9619c0/ritm_nv HTTP/1.1" 201 138
+INFO 2022-07-12 18:09:30,722 - RITM RITM8957865 was created...
+DEBUG 2022-07-12 18:09:30,735 - Starting new HTTPS connection (1): api.pwc.com:443
+DEBUG 2022-07-12 18:09:31,410 - https://api.pwc.com:443 "GET /pwcnetwork/service_now/api/now/table/sc_task?sysparm_query=active%3Dtrue%5Erequest_item.number%3DRITM8957865&sysparm_fields=sys_id,number HTTP/1.1" 200 103
+INFO 2022-07-12 18:09:31,457 - User checked and saved...
+INFO 2022-07-12 18:16:17,544 - C:\DevOpsTools_Automation\Automation%20Platform\DVT_api\views.py changed, reloading.
+DEBUG 2022-07-12 18:16:17,544 - Using proactor: IocpProactor
+INFO 2022-07-12 18:16:20,239 - Watching for file changes with StatReloader
+INFO 2022-07-12 18:17:17,834 - Validating GUID: candon001
+DEBUG 2022-07-12 18:17:17,837 - Starting new HTTPS connection (1): gumapiservice.pwcinternal.com:443
+DEBUG 2022-07-12 18:17:20,208 - https://gumapiservice.pwcinternal.com:443 "POST /GumService.asmx?wsdl HTTP/1.1" 200 1035
+INFO 2022-07-12 18:17:20,210 - Preparing data for Service Now process!
+INFO 2022-07-12 18:17:20,218 - User has no Service Now RITM, creating a new one.......
+INFO 2022-07-12 18:17:20,218 - Creating new RITM.....
+DEBUG 2022-07-12 18:17:20,219 - Starting new HTTPS connection (1): api.pwc.com:443
+DEBUG 2022-07-12 18:17:23,379 - https://api.pwc.com:443 "POST /pwcnetwork/service_now/api/ipwc/request_item/create/d954573ddbe53340a416f5261d9619c0/ritm_nv HTTP/1.1" 201 138
+INFO 2022-07-12 18:17:23,381 - RITM RITM8957975 was created...
+DEBUG 2022-07-12 18:17:23,383 - Starting new HTTPS connection (1): api.pwc.com:443
+DEBUG 2022-07-12 18:17:24,245 - https://api.pwc.com:443 "GET /pwcnetwork/service_now/api/now/table/sc_task?sysparm_query=active%3Dtrue%5Erequest_item.number%3DRITM8957975&sysparm_fields=sys_id,number HTTP/1.1" 200 102
+DEBUG 2022-07-12 18:17:25,469 - https://api.pwc.com:443 "PATCH /pwcnetwork/service_now/api/now/table/sc_task/a937045b1b28d958437c4152b24bcb28 HTTP/1.1" 200 1066
+INFO 2022-07-12 18:17:25,489 - User checked and saved...
+DEBUG 2022-07-12 18:26:37,648 - Using proactor: IocpProactor
+DEBUG 2022-07-12 18:26:37,796 - Using proactor: IocpProactor
