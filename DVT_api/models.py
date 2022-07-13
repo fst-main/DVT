@@ -22,7 +22,7 @@ logger=logging.getLogger()
 class EventApp(models.Model):
     guid = models.CharField(max_length=60)
     team_name = models.CharField(max_length=60)
-    ticket_number = models.CharField(max_length=60)
+    ticket_number = models.CharField(max_length=60,blank=True, null=True)
     ppi_code = models.CharField(max_length=60)
     user_name =  models.CharField(max_length=120)
     email_address = models.EmailField(max_length=120)
@@ -40,14 +40,13 @@ class EventApp(models.Model):
             for children in child:
                 pass
             for children1 in children:
-                statusCode = children1[0].text
+                #statusCode = children1[0].text
                 self.email_address = children1[1][3].text
                 self.user_name = children1[1][1].text + " " + children1[1][2].text
                 special_attributes = children1[1][0][0][1]
             for attribute in special_attributes:
                 self.ppi_code = attribute.text         
             super().save(*args, **kwargs)
-            
         else:
             return Response({'error': '! Validation failure, record not saved to database....'},
                        status=HTTP_400_BAD_REQUEST)

@@ -12,11 +12,13 @@ from rest_framework.status import (
     HTTP_200_OK
 )
 
-task_sys_id = None
+
 LOG_FORMAT = "%(levelname)s %(asctime)s - %(message)s"
 logging.basicConfig(filename="C:\\DevOpsTools_Automation\\Automation%20Platform\\logs\\models.log",
                     level=logging.DEBUG, format=LOG_FORMAT)
 logger = logging.getLogger()
+task_sys_id = None
+ritm = None
 
 class ServiceNowAPICalls:
 
@@ -153,13 +155,9 @@ class ServiceNowAPICalls:
         content = response.json()
         if response.status_code == 200 or response.status_code == 201:
                 print("Response JSON Content: " + str(content))
+                global ritm
                 ritm = content['result']['record']
                 print("Ritm number: ", ritm)
-                logger.info(f"RITM {ritm} was created...")
                 print("Success! RITM created successfully.......")
-                self.get_active_task_from_current_ritm(ritm)
-                self.close_record_active_task(task_sys_id)
-                print("Success! RITM closed successfully.......")
-                
         else:
                 print("Error! An error occurred, RITM was not created.....")

@@ -943,3 +943,397 @@ DEBUG 2022-07-12 18:17:25,469 - https://api.pwc.com:443 "PATCH /pwcnetwork/servi
 INFO 2022-07-12 18:17:25,489 - User checked and saved...
 DEBUG 2022-07-12 18:26:37,648 - Using proactor: IocpProactor
 DEBUG 2022-07-12 18:26:37,796 - Using proactor: IocpProactor
+INFO 2022-07-12 18:33:45,181 - Watching for file changes with StatReloader
+INFO 2022-07-13 00:09:41,705 - C:\DevOpsTools_Automation\Automation%20Platform\DVT_api\views.py changed, reloading.
+DEBUG 2022-07-13 00:09:41,730 - Using proactor: IocpProactor
+INFO 2022-07-13 00:09:44,829 - Watching for file changes with StatReloader
+INFO 2022-07-13 00:14:17,051 - Watching for file changes with StatReloader
+INFO 2022-07-13 11:55:31,147 - Watching for file changes with StatReloader
+WARNING 2022-07-13 11:56:01,485 - Bad Request: /api/post_user
+INFO 2022-07-13 11:59:06,835 - C:\DevOpsTools_Automation\Automation%20Platform\DVT_api\models.py changed, reloading.
+DEBUG 2022-07-13 11:59:06,848 - Using proactor: IocpProactor
+INFO 2022-07-13 11:59:08,076 - Watching for file changes with StatReloader
+INFO 2022-07-13 11:59:21,081 - Validating GUID: candon001
+DEBUG 2022-07-13 11:59:21,087 - Starting new HTTPS connection (1): gumapiservice.pwcinternal.com:443
+DEBUG 2022-07-13 11:59:23,322 - https://gumapiservice.pwcinternal.com:443 "POST /GumService.asmx?wsdl HTTP/1.1" 200 1035
+INFO 2022-07-13 11:59:23,338 - Creating new ServiceNow ticket......
+DEBUG 2022-07-13 11:59:23,339 - Starting new HTTPS connection (1): gumapiservice.pwcinternal.com:443
+DEBUG 2022-07-13 11:59:27,636 - https://gumapiservice.pwcinternal.com:443 "POST /GumService.asmx?wsdl HTTP/1.1" 200 404
+DEBUG 2022-07-13 11:59:27,640 - Starting new HTTPS connection (1): api.pwc.com:443
+DEBUG 2022-07-13 11:59:31,595 - https://api.pwc.com:443 "GET /pwcnetwork/service_now/api/now/table/sc_task?sysparm_query=active%3Dtrue%5Erequest_item.number%3D&sysparm_fields=sys_id,number HTTP/1.1" 200 885
+DEBUG 2022-07-13 11:59:31,614 - Starting new HTTPS connection (1): api.pwc.com:443
+DEBUG 2022-07-13 11:59:34,472 - https://api.pwc.com:443 "PATCH /pwcnetwork/service_now/api/now/table/sc_task/bfefd4a7db6e97401c46cd4d0b9619cf HTTP/1.1" 200 1393
+INFO 2022-07-13 11:59:34,486 - User Catalin Andon saved to data base...
+INFO 2022-07-13 12:09:25,311 - C:\DevOpsTools_Automation\Automation%20Platform\DVT_api\views.py changed, reloading.
+DEBUG 2022-07-13 12:09:25,312 - Using proactor: IocpProactor
+INFO 2022-07-13 12:09:27,306 - Watching for file changes with StatReloader
+INFO 2022-07-13 12:09:44,565 - Validating GUID: candon001
+DEBUG 2022-07-13 12:09:44,570 - Starting new HTTPS connection (1): gumapiservice.pwcinternal.com:443
+DEBUG 2022-07-13 12:09:46,727 - https://gumapiservice.pwcinternal.com:443 "POST /GumService.asmx?wsdl HTTP/1.1" 200 1035
+DEBUG 2022-07-13 12:09:46,742 - Starting new HTTPS connection (1): api.pwc.com:443
+DEBUG 2022-07-13 12:09:51,171 - https://api.pwc.com:443 "GET /pwcnetwork/service_now/api/now/table/sc_task?sysparm_query=active%3Dtrue%5Erequest_item.number%3D&sysparm_fields=sys_id,number HTTP/1.1" 200 858
+DEBUG 2022-07-13 12:09:51,180 - Starting new HTTPS connection (1): api.pwc.com:443
+DEBUG 2022-07-13 12:09:53,050 - https://api.pwc.com:443 "PATCH /pwcnetwork/service_now/api/now/table/sc_task/381c1c0c1b3b3494e95f9863b24bcb2d HTTP/1.1" 200 1187
+INFO 2022-07-13 12:09:53,051 - RITM number: ---------- was closed!
+INFO 2022-07-13 12:09:53,056 - User Catalin Andon saved to data base...
+INFO 2022-07-13 12:16:53,219 - C:\DevOpsTools_Automation\Automation%20Platform\DVT_api\views.py changed, reloading.
+DEBUG 2022-07-13 12:16:53,220 - Using proactor: IocpProactor
+INFO 2022-07-13 12:16:54,529 - Watching for file changes with StatReloader
+INFO 2022-07-13 12:17:48,998 - Validating GUID: candon001
+DEBUG 2022-07-13 12:17:49,002 - Starting new HTTPS connection (1): gumapiservice.pwcinternal.com:443
+DEBUG 2022-07-13 12:17:51,169 - https://gumapiservice.pwcinternal.com:443 "POST /GumService.asmx?wsdl HTTP/1.1" 200 1035
+DEBUG 2022-07-13 12:17:51,175 - Starting new HTTPS connection (1): api.pwc.com:443
+DEBUG 2022-07-13 12:17:54,915 - https://api.pwc.com:443 "GET /pwcnetwork/service_now/api/now/table/sc_task?sysparm_query=active%3Dtrue%5Erequest_item.number%3D&sysparm_fields=sys_id,number HTTP/1.1" 200 831
+DEBUG 2022-07-13 12:17:54,920 - Starting new HTTPS connection (1): api.pwc.com:443
+DEBUG 2022-07-13 12:17:56,607 - https://api.pwc.com:443 "PATCH /pwcnetwork/service_now/api/now/table/sc_task/8d35957a1ba08554867564e4604bcbfb HTTP/1.1" 200 1207
+INFO 2022-07-13 12:17:56,609 - RITM number: ---------- was closed!
+INFO 2022-07-13 12:17:56,624 - User Catalin Andon saved to data base...
+INFO 2022-07-13 12:19:48,698 - C:\DevOpsTools_Automation\Automation%20Platform\DVT_api\views.py changed, reloading.
+DEBUG 2022-07-13 12:19:48,699 - Using proactor: IocpProactor
+INFO 2022-07-13 12:19:50,048 - Watching for file changes with StatReloader
+INFO 2022-07-13 12:19:55,650 - Validating GUID: candon001
+DEBUG 2022-07-13 12:19:55,654 - Starting new HTTPS connection (1): gumapiservice.pwcinternal.com:443
+DEBUG 2022-07-13 12:19:57,772 - https://gumapiservice.pwcinternal.com:443 "POST /GumService.asmx?wsdl HTTP/1.1" 200 1035
+INFO 2022-07-13 12:19:57,780 - Creating new ServiceNow ticket......
+INFO 2022-07-13 12:19:57,781 - Creating new RITM.....
+DEBUG 2022-07-13 12:19:57,783 - Starting new HTTPS connection (1): api.pwc.com:443
+DEBUG 2022-07-13 12:20:02,107 - https://api.pwc.com:443 "POST /pwcnetwork/service_now/api/ipwc/request_item/create/d954573ddbe53340a416f5261d9619c0/ritm_nv HTTP/1.1" 201 138
+INFO 2022-07-13 12:20:02,109 - RITM RITM8965627 was created...
+INFO 2022-07-13 12:20:02,109 - RITM number: -----RITM8965627-----
+DEBUG 2022-07-13 12:20:02,111 - Starting new HTTPS connection (1): api.pwc.com:443
+DEBUG 2022-07-13 12:20:02,652 - https://api.pwc.com:443 "GET /pwcnetwork/service_now/api/now/table/sc_task?sysparm_query=active%3Dtrue%5Erequest_item.number%3DRITM8965627&sysparm_fields=sys_id,number HTTP/1.1" 200 103
+DEBUG 2022-07-13 12:20:02,659 - Starting new HTTPS connection (1): api.pwc.com:443
+DEBUG 2022-07-13 12:20:04,401 - https://api.pwc.com:443 "PATCH /pwcnetwork/service_now/api/now/table/sc_task/e00f77971b241d989bfe859ee54bcb14 HTTP/1.1" 200 1062
+INFO 2022-07-13 12:20:04,419 - User Catalin Andon saved to data base...
+INFO 2022-07-13 12:21:45,464 - C:\DevOpsTools_Automation\Automation%20Platform\DVT_api\SNow_API.py changed, reloading.
+DEBUG 2022-07-13 12:21:45,466 - Using proactor: IocpProactor
+INFO 2022-07-13 12:21:46,738 - Watching for file changes with StatReloader
+INFO 2022-07-13 12:23:35,558 - C:\DevOpsTools_Automation\Automation%20Platform\DVT_api\views.py changed, reloading.
+DEBUG 2022-07-13 12:23:35,560 - Using proactor: IocpProactor
+INFO 2022-07-13 12:23:37,134 - Watching for file changes with StatReloader
+INFO 2022-07-13 16:29:11,553 - C:\DevOpsTools_Automation\Automation%20Platform\DVT_api\views.py changed, reloading.
+DEBUG 2022-07-13 16:29:11,565 - Using proactor: IocpProactor
+INFO 2022-07-13 16:29:13,637 - Watching for file changes with StatReloader
+INFO 2022-07-13 16:36:05,454 - C:\DevOpsTools_Automation\Automation%20Platform\DVT_api\views.py changed, reloading.
+DEBUG 2022-07-13 16:36:05,455 - Using proactor: IocpProactor
+INFO 2022-07-13 16:36:07,515 - Watching for file changes with StatReloader
+INFO 2022-07-13 16:36:11,402 - Validating GUID: candon001
+DEBUG 2022-07-13 16:36:11,409 - Starting new HTTPS connection (1): gumapiservice.pwcinternal.com:443
+DEBUG 2022-07-13 16:36:13,742 - https://gumapiservice.pwcinternal.com:443 "POST /GumService.asmx?wsdl HTTP/1.1" 200 1035
+INFO 2022-07-13 16:36:13,751 - Creating new ServiceNow ticket......
+INFO 2022-07-13 16:36:13,751 - Creating new RITM.....
+DEBUG 2022-07-13 16:36:13,752 - Starting new HTTPS connection (1): api.pwc.com:443
+DEBUG 2022-07-13 16:36:18,319 - https://api.pwc.com:443 "POST /pwcnetwork/service_now/api/ipwc/request_item/create/d954573ddbe53340a416f5261d9619c0/ritm_nv HTTP/1.1" 201 138
+INFO 2022-07-13 16:36:18,323 - RITM number: -----RITM8969233-----
+DEBUG 2022-07-13 16:36:18,324 - Starting new HTTPS connection (1): api.pwc.com:443
+DEBUG 2022-07-13 16:36:18,860 - https://api.pwc.com:443 "GET /pwcnetwork/service_now/api/now/table/sc_task?sysparm_query=active%3Dtrue%5Erequest_item.number%3DRITM8969233&sysparm_fields=sys_id,number HTTP/1.1" 200 103
+DEBUG 2022-07-13 16:36:18,864 - Starting new HTTPS connection (1): api.pwc.com:443
+DEBUG 2022-07-13 16:36:21,000 - https://api.pwc.com:443 "PATCH /pwcnetwork/service_now/api/now/table/sc_task/2ea978e31b6051d8f96c6282b24bcb3b HTTP/1.1" 200 1064
+INFO 2022-07-13 16:36:21,011 - User Catalin Andon saved to data base and added to GUM group
+INFO 2022-07-13 16:38:45,200 - C:\DevOpsTools_Automation\Automation%20Platform\DVT_api\views.py changed, reloading.
+DEBUG 2022-07-13 16:38:45,200 - Using proactor: IocpProactor
+INFO 2022-07-13 16:38:46,368 - Watching for file changes with StatReloader
+INFO 2022-07-13 16:38:58,816 - Validating GUID: candon001
+DEBUG 2022-07-13 16:38:58,820 - Starting new HTTPS connection (1): gumapiservice.pwcinternal.com:443
+DEBUG 2022-07-13 16:39:01,076 - https://gumapiservice.pwcinternal.com:443 "POST /GumService.asmx?wsdl HTTP/1.1" 200 1035
+INFO 2022-07-13 16:39:01,079 - Creating new ServiceNow ticket......
+INFO 2022-07-13 16:39:01,079 - Creating new RITM.....
+DEBUG 2022-07-13 16:39:01,081 - Starting new HTTPS connection (1): api.pwc.com:443
+DEBUG 2022-07-13 16:39:04,569 - https://api.pwc.com:443 "POST /pwcnetwork/service_now/api/ipwc/request_item/create/d954573ddbe53340a416f5261d9619c0/ritm_nv HTTP/1.1" 201 138
+INFO 2022-07-13 16:39:04,572 - RITM number: -----RITM8969273-----
+DEBUG 2022-07-13 16:39:04,574 - Starting new HTTPS connection (1): api.pwc.com:443
+DEBUG 2022-07-13 16:39:05,121 - https://api.pwc.com:443 "GET /pwcnetwork/service_now/api/now/table/sc_task?sysparm_query=active%3Dtrue%5Erequest_item.number%3DRITM8969273&sysparm_fields=sys_id,number HTTP/1.1" 200 103
+DEBUG 2022-07-13 16:39:05,125 - Starting new HTTPS connection (1): api.pwc.com:443
+DEBUG 2022-07-13 16:39:06,936 - https://api.pwc.com:443 "PATCH /pwcnetwork/service_now/api/now/table/sc_task/074a34271b209d98437c4152b24bcb82 HTTP/1.1" 200 1064
+INFO 2022-07-13 16:39:06,955 - User Catalin Andon saved to data base and added to GUM group
+INFO 2022-07-13 16:42:14,511 - C:\DevOpsTools_Automation\Automation%20Platform\DVT_api\views.py changed, reloading.
+DEBUG 2022-07-13 16:42:14,513 - Using proactor: IocpProactor
+INFO 2022-07-13 16:42:15,933 - Watching for file changes with StatReloader
+INFO 2022-07-13 16:42:22,918 - Validating GUID: candon001
+DEBUG 2022-07-13 16:42:22,922 - Starting new HTTPS connection (1): gumapiservice.pwcinternal.com:443
+DEBUG 2022-07-13 16:42:25,368 - https://gumapiservice.pwcinternal.com:443 "POST /GumService.asmx?wsdl HTTP/1.1" 200 1035
+INFO 2022-07-13 16:42:25,372 - Creating new ServiceNow ticket......
+INFO 2022-07-13 16:42:25,373 - Creating new RITM.....
+DEBUG 2022-07-13 16:42:25,374 - Starting new HTTPS connection (1): api.pwc.com:443
+DEBUG 2022-07-13 16:42:28,891 - https://api.pwc.com:443 "POST /pwcnetwork/service_now/api/ipwc/request_item/create/d954573ddbe53340a416f5261d9619c0/ritm_nv HTTP/1.1" 201 138
+INFO 2022-07-13 16:42:28,895 - RITM number: -----RITM8969318-----
+DEBUG 2022-07-13 16:42:28,896 - Starting new HTTPS connection (1): api.pwc.com:443
+DEBUG 2022-07-13 16:42:29,589 - https://api.pwc.com:443 "GET /pwcnetwork/service_now/api/now/table/sc_task?sysparm_query=active%3Dtrue%5Erequest_item.number%3DRITM8969318&sysparm_fields=sys_id,number HTTP/1.1" 200 103
+DEBUG 2022-07-13 16:42:29,596 - Starting new HTTPS connection (1): api.pwc.com:443
+DEBUG 2022-07-13 16:42:31,252 - https://api.pwc.com:443 "PATCH /pwcnetwork/service_now/api/now/table/sc_task/bc1b74ab1b6499d8e05a4152b24bcbaa HTTP/1.1" 200 1069
+INFO 2022-07-13 16:42:31,264 - User Catalin Andon saved to data base and added to GUM group
+INFO 2022-07-13 16:48:18,981 - Validating GUID: tzhang289
+DEBUG 2022-07-13 16:48:18,982 - Starting new HTTPS connection (1): gumapiservice.pwcinternal.com:443
+DEBUG 2022-07-13 16:48:21,030 - https://gumapiservice.pwcinternal.com:443 "POST /GumService.asmx?wsdl HTTP/1.1" 200 1028
+DEBUG 2022-07-13 16:48:21,042 - Starting new HTTPS connection (1): gumapiservice.pwcinternal.com:443
+DEBUG 2022-07-13 16:50:04,846 - https://gumapiservice.pwcinternal.com:443 "POST /GumService.asmx?wsdl HTTP/1.1" 200 475
+DEBUG 2022-07-13 16:50:04,849 - Starting new HTTPS connection (1): api.pwc.com:443
+DEBUG 2022-07-13 16:50:05,570 - https://api.pwc.com:443 "GET /pwcnetwork/service_now/api/now/table/sc_task?sysparm_query=active%3Dtrue%5Erequest_item.number%3DRITM8961419&sysparm_fields=sys_id,number HTTP/1.1" 200 101
+DEBUG 2022-07-13 16:50:05,574 - Starting new HTTPS connection (1): api.pwc.com:443
+DEBUG 2022-07-13 16:50:07,660 - https://api.pwc.com:443 "PATCH /pwcnetwork/service_now/api/now/table/sc_task/bb0c42171b20d9d8b4636282b24bcb44 HTTP/1.1" 200 1187
+INFO 2022-07-13 16:50:07,662 - RITM number: -----RITM8961419----- was closed!
+INFO 2022-07-13 16:50:07,684 - User Tony Zhang saved to data base and added to GUM group
+INFO 2022-07-13 17:37:57,143 - Validating GUID: candon001
+DEBUG 2022-07-13 17:37:57,145 - Starting new HTTPS connection (1): gumapiservice.pwcinternal.com:443
+DEBUG 2022-07-13 17:37:59,340 - https://gumapiservice.pwcinternal.com:443 "POST /GumService.asmx?wsdl HTTP/1.1" 200 1035
+INFO 2022-07-13 17:37:59,348 - Creating new ServiceNow ticket......
+INFO 2022-07-13 17:37:59,348 - Creating new RITM.....
+DEBUG 2022-07-13 17:37:59,350 - Starting new HTTPS connection (1): api.pwc.com:443
+DEBUG 2022-07-13 17:38:03,077 - https://api.pwc.com:443 "POST /pwcnetwork/service_now/api/ipwc/request_item/create/d954573ddbe53340a416f5261d9619c0/ritm_nv HTTP/1.1" 201 136
+INFO 2022-07-13 17:38:03,080 - RITM number: -----RITM8970221-----
+DEBUG 2022-07-13 17:38:03,082 - Starting new HTTPS connection (1): api.pwc.com:443
+DEBUG 2022-07-13 17:38:03,636 - https://api.pwc.com:443 "GET /pwcnetwork/service_now/api/now/table/sc_task?sysparm_query=active%3Dtrue%5Erequest_item.number%3DRITM8970221&sysparm_fields=sys_id,number HTTP/1.1" 200 103
+DEBUG 2022-07-13 17:38:03,640 - Starting new HTTPS connection (1): api.pwc.com:443
+DEBUG 2022-07-13 17:38:05,923 - https://api.pwc.com:443 "PATCH /pwcnetwork/service_now/api/now/table/sc_task/0fc789a71bac9d989bfe859ee54bcb5a HTTP/1.1" 200 1060
+INFO 2022-07-13 17:38:05,931 - User Catalin Andon saved to data base and added to GUM group
+INFO 2022-07-13 17:40:14,535 - C:\DevOpsTools_Automation\Automation%20Platform\DVT_api\models.py changed, reloading.
+DEBUG 2022-07-13 17:40:14,536 - Using proactor: IocpProactor
+INFO 2022-07-13 17:40:16,798 - Watching for file changes with StatReloader
+INFO 2022-07-13 17:42:43,758 - C:\DevOpsTools_Automation\Automation%20Platform\DVT_api\views.py changed, reloading.
+DEBUG 2022-07-13 17:42:43,760 - Using proactor: IocpProactor
+INFO 2022-07-13 17:42:45,127 - Watching for file changes with StatReloader
+INFO 2022-07-13 17:50:51,627 - C:\DevOpsTools_Automation\Automation%20Platform\DVT_api\models.py changed, reloading.
+DEBUG 2022-07-13 17:50:51,629 - Using proactor: IocpProactor
+INFO 2022-07-13 17:50:54,000 - Watching for file changes with StatReloader
+INFO 2022-07-13 17:51:11,175 - Validating GUID: candon001
+DEBUG 2022-07-13 17:51:11,178 - Starting new HTTPS connection (1): gumapiservice.pwcinternal.com:443
+DEBUG 2022-07-13 17:51:13,429 - https://gumapiservice.pwcinternal.com:443 "POST /GumService.asmx?wsdl HTTP/1.1" 200 1035
+DEBUG 2022-07-13 17:51:13,448 - Starting new HTTPS connection (1): gumapiservice.pwcinternal.com:443
+DEBUG 2022-07-13 17:51:17,571 - https://gumapiservice.pwcinternal.com:443 "POST /GumService.asmx?wsdl HTTP/1.1" 200 404
+DEBUG 2022-07-13 17:51:17,576 - Starting new HTTPS connection (1): api.pwc.com:443
+DEBUG 2022-07-13 17:51:18,337 - https://api.pwc.com:443 "GET /pwcnetwork/service_now/api/now/table/sc_task?sysparm_query=active%3Dtrue%5Erequest_item.number%3DTEST0000011111&sysparm_fields=sys_id,number HTTP/1.1" 200 33
+ERROR 2022-07-13 17:51:18,539 - Internal Server Error: /api/post_user
+Traceback (most recent call last):
+  File "C:\Users\candon001\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\candon001\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\candon001\AppData\Local\Programs\Python\Python39\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\candon001\AppData\Local\Programs\Python\Python39\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\candon001\AppData\Local\Programs\Python\Python39\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\candon001\AppData\Local\Programs\Python\Python39\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\candon001\AppData\Local\Programs\Python\Python39\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\candon001\AppData\Local\Programs\Python\Python39\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\candon001\AppData\Local\Programs\Python\Python39\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\candon001\AppData\Local\Programs\Python\Python39\lib\site-packages\rest_framework\decorators.py", line 50, in handler
+    return func(*args, **kwargs)
+  File "C:\DevOpsTools_Automation\Automation%20Platform\DVT_api\views.py", line 97, in post_user
+    get_active_task.get_active_task_from_current_ritm(ticket)
+  File "C:\DevOpsTools_Automation\Automation%20Platform\DVT_api\SNow_API.py", line 74, in get_active_task_from_current_ritm
+    task_sys_id = content['result'][0]['sys_id']
+IndexError: list index out of range
+WARNING 2022-07-13 17:51:45,943 - Bad Request: /api/post_user
+INFO 2022-07-13 17:53:43,970 - C:\DevOpsTools_Automation\Automation%20Platform\DVT_api\models.py changed, reloading.
+DEBUG 2022-07-13 17:53:43,971 - Using proactor: IocpProactor
+INFO 2022-07-13 17:53:45,326 - Watching for file changes with StatReloader
+INFO 2022-07-13 17:54:08,458 - Validating GUID: candon001
+DEBUG 2022-07-13 17:54:08,462 - Starting new HTTPS connection (1): gumapiservice.pwcinternal.com:443
+DEBUG 2022-07-13 17:54:10,557 - https://gumapiservice.pwcinternal.com:443 "POST /GumService.asmx?wsdl HTTP/1.1" 200 1035
+INFO 2022-07-13 17:54:10,561 - Creating new ServiceNow ticket......
+INFO 2022-07-13 17:54:10,561 - Creating new RITM.....
+DEBUG 2022-07-13 17:54:10,562 - Starting new HTTPS connection (1): api.pwc.com:443
+DEBUG 2022-07-13 17:54:16,669 - https://api.pwc.com:443 "POST /pwcnetwork/service_now/api/ipwc/request_item/create/d954573ddbe53340a416f5261d9619c0/ritm_nv HTTP/1.1" 201 138
+INFO 2022-07-13 17:54:16,671 - RITM number: -----RITM8970498-----
+DEBUG 2022-07-13 17:54:16,672 - Starting new HTTPS connection (1): api.pwc.com:443
+DEBUG 2022-07-13 17:54:17,253 - https://api.pwc.com:443 "GET /pwcnetwork/service_now/api/now/table/sc_task?sysparm_query=active%3Dtrue%5Erequest_item.number%3DRITM8970498&sysparm_fields=sys_id,number HTTP/1.1" 200 103
+DEBUG 2022-07-13 17:54:17,258 - Starting new HTTPS connection (1): api.pwc.com:443
+DEBUG 2022-07-13 17:54:18,852 - https://api.pwc.com:443 "PATCH /pwcnetwork/service_now/api/now/table/sc_task/e88b49e71b2819d801f9dd72b24bcbf1 HTTP/1.1" 200 1066
+INFO 2022-07-13 17:54:18,875 - User Catalin Andon saved to data base and added to GUM group
+DEBUG 2022-07-13 17:57:34,251 - Using proactor: IocpProactor
+DEBUG 2022-07-13 17:57:34,351 - Using proactor: IocpProactor
+INFO 2022-07-13 17:58:05,873 - Watching for file changes with StatReloader
+INFO 2022-07-13 18:09:49,260 - Validating GUID: candon001
+DEBUG 2022-07-13 18:09:49,267 - Starting new HTTPS connection (1): gumapiservice.pwcinternal.com:443
+DEBUG 2022-07-13 18:09:51,504 - https://gumapiservice.pwcinternal.com:443 "POST /GumService.asmx?wsdl HTTP/1.1" 200 1035
+INFO 2022-07-13 18:09:51,515 - Creating new ServiceNow ticket......
+INFO 2022-07-13 18:09:51,515 - Creating new RITM.....
+DEBUG 2022-07-13 18:09:51,517 - Starting new HTTPS connection (1): api.pwc.com:443
+DEBUG 2022-07-13 18:09:55,360 - https://api.pwc.com:443 "POST /pwcnetwork/service_now/api/ipwc/request_item/create/d954573ddbe53340a416f5261d9619c0/ritm_nv HTTP/1.1" 201 137
+INFO 2022-07-13 18:09:55,364 - RITM number: -----RITM8970707-----
+DEBUG 2022-07-13 18:09:55,365 - Starting new HTTPS connection (1): api.pwc.com:443
+DEBUG 2022-07-13 18:09:56,221 - https://api.pwc.com:443 "GET /pwcnetwork/service_now/api/now/table/sc_task?sysparm_query=active%3Dtrue%5Erequest_item.number%3DRITM8970707&sysparm_fields=sys_id,number HTTP/1.1" 200 103
+DEBUG 2022-07-13 18:09:56,226 - Starting new HTTPS connection (1): api.pwc.com:443
+DEBUG 2022-07-13 18:09:57,839 - https://api.pwc.com:443 "PATCH /pwcnetwork/service_now/api/now/table/sc_task/f51fc96f1ba819d801f9dd72b24bcb84 HTTP/1.1" 200 1065
+INFO 2022-07-13 18:09:57,857 - User Catalin Andon saved to data base and added to GUM group
+INFO 2022-07-13 18:13:41,688 - Validating GUID: ashenoy017
+DEBUG 2022-07-13 18:13:41,690 - Starting new HTTPS connection (1): gumapiservice.pwcinternal.com:443
+DEBUG 2022-07-13 18:13:43,974 - https://gumapiservice.pwcinternal.com:443 "POST /GumService.asmx?wsdl HTTP/1.1" 200 1028
+DEBUG 2022-07-13 18:13:43,985 - Starting new HTTPS connection (1): gumapiservice.pwcinternal.com:443
+DEBUG 2022-07-13 18:15:27,650 - https://gumapiservice.pwcinternal.com:443 "POST /GumService.asmx?wsdl HTTP/1.1" 200 475
+DEBUG 2022-07-13 18:15:27,653 - Starting new HTTPS connection (1): api.pwc.com:443
+DEBUG 2022-07-13 18:15:28,700 - https://api.pwc.com:443 "GET /pwcnetwork/service_now/api/now/table/sc_task?sysparm_query=active%3Dtrue%5Erequest_item.number%3DRITM8961836&sysparm_fields=sys_id,number HTTP/1.1" 200 103
+DEBUG 2022-07-13 18:15:28,703 - Starting new HTTPS connection (1): api.pwc.com:443
+DEBUG 2022-07-13 18:15:30,242 - https://api.pwc.com:443 "PATCH /pwcnetwork/service_now/api/now/table/sc_task/415216d71b64d9d8b4636282b24bcb33 HTTP/1.1" 200 1188
+INFO 2022-07-13 18:15:30,244 - RITM number: -----RITM8961836----- was closed!
+INFO 2022-07-13 18:15:30,249 - User Adi Shenoy saved to data base and added to GUM group
+INFO 2022-07-13 18:34:36,589 - Validating GUID: candon001
+DEBUG 2022-07-13 18:34:36,591 - Starting new HTTPS connection (1): gumapiservice.pwcinternal.com:443
+DEBUG 2022-07-13 18:34:38,952 - https://gumapiservice.pwcinternal.com:443 "POST /GumService.asmx?wsdl HTTP/1.1" 200 1035
+INFO 2022-07-13 18:34:38,968 - Creating new ServiceNow ticket......
+INFO 2022-07-13 18:34:38,968 - Creating new RITM.....
+DEBUG 2022-07-13 18:34:38,970 - Starting new HTTPS connection (1): api.pwc.com:443
+DEBUG 2022-07-13 18:34:42,444 - https://api.pwc.com:443 "POST /pwcnetwork/service_now/api/ipwc/request_item/create/d954573ddbe53340a416f5261d9619c0/ritm_nv HTTP/1.1" 201 137
+INFO 2022-07-13 18:34:42,447 - RITM number: -----RITM8971049-----
+DEBUG 2022-07-13 18:34:42,450 - Starting new HTTPS connection (1): api.pwc.com:443
+DEBUG 2022-07-13 18:34:43,355 - https://api.pwc.com:443 "GET /pwcnetwork/service_now/api/now/table/sc_task?sysparm_query=active%3Dtrue%5Erequest_item.number%3DRITM8971049&sysparm_fields=sys_id,number HTTP/1.1" 200 103
+DEBUG 2022-07-13 18:34:43,359 - Starting new HTTPS connection (1): api.pwc.com:443
+DEBUG 2022-07-13 18:34:45,282 - https://api.pwc.com:443 "PATCH /pwcnetwork/service_now/api/now/table/sc_task/7cc495271bec9d98437c4152b24bcb81 HTTP/1.1" 200 1066
+INFO 2022-07-13 18:34:45,298 - User Catalin Andon saved to data base and added to GUM group
+INFO 2022-07-13 18:40:06,885 - Validating GUID: ytang114
+DEBUG 2022-07-13 18:40:06,887 - Starting new HTTPS connection (1): gumapiservice.pwcinternal.com:443
+DEBUG 2022-07-13 18:40:09,030 - https://gumapiservice.pwcinternal.com:443 "POST /GumService.asmx?wsdl HTTP/1.1" 200 1031
+DEBUG 2022-07-13 18:40:09,054 - Starting new HTTPS connection (1): gumapiservice.pwcinternal.com:443
+DEBUG 2022-07-13 18:41:53,821 - https://gumapiservice.pwcinternal.com:443 "POST /GumService.asmx?wsdl HTTP/1.1" 200 475
+DEBUG 2022-07-13 18:41:53,824 - Starting new HTTPS connection (1): api.pwc.com:443
+DEBUG 2022-07-13 18:41:54,846 - https://api.pwc.com:443 "GET /pwcnetwork/service_now/api/now/table/sc_task?sysparm_query=active%3Dtrue%5Erequest_item.number%3DRITM8962498&sysparm_fields=sys_id,number HTTP/1.1" 200 103
+DEBUG 2022-07-13 18:41:54,852 - Starting new HTTPS connection (1): api.pwc.com:443
+DEBUG 2022-07-13 18:41:56,668 - https://api.pwc.com:443 "PATCH /pwcnetwork/service_now/api/now/table/sc_task/9d8f3a931bec5dd8b4636282b24bcb61 HTTP/1.1" 200 1192
+INFO 2022-07-13 18:41:56,722 - RITM number: -----RITM8962498----- was closed!
+INFO 2022-07-13 18:41:57,615 - User Yixuan Tang saved to data base and added to GUM group
+INFO 2022-07-14 00:22:35,992 - Validating GUID: ytang11
+DEBUG 2022-07-14 00:22:35,997 - Starting new HTTPS connection (1): gumapiservice.pwcinternal.com:443
+DEBUG 2022-07-14 00:22:38,621 - https://gumapiservice.pwcinternal.com:443 "POST /GumService.asmx?wsdl HTTP/1.1" 200 486
+ERROR 2022-07-14 00:22:38,862 - Internal Server Error: /api/post_user
+Traceback (most recent call last):
+  File "C:\Users\candon001\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\candon001\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\candon001\AppData\Local\Programs\Python\Python39\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\candon001\AppData\Local\Programs\Python\Python39\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\candon001\AppData\Local\Programs\Python\Python39\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\candon001\AppData\Local\Programs\Python\Python39\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\candon001\AppData\Local\Programs\Python\Python39\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\candon001\AppData\Local\Programs\Python\Python39\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\candon001\AppData\Local\Programs\Python\Python39\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\candon001\AppData\Local\Programs\Python\Python39\lib\site-packages\rest_framework\decorators.py", line 50, in handler
+    return func(*args, **kwargs)
+  File "C:\DevOpsTools_Automation\Automation%20Platform\DVT_api\views.py", line 74, in post_user
+    email_address = children1[1][3].text
+  File "src\lxml\etree.pyx", line 1161, in lxml.etree._Element.__getitem__
+IndexError: list index out of range
+INFO 2022-07-14 00:31:07,382 - C:\DevOpsTools_Automation\Automation%20Platform\DVT_api\views.py changed, reloading.
+DEBUG 2022-07-14 00:31:07,391 - Using proactor: IocpProactor
+INFO 2022-07-14 00:31:11,517 - Watching for file changes with StatReloader
+INFO 2022-07-14 00:31:21,652 - Validating GUID: ytang11
+DEBUG 2022-07-14 00:31:21,660 - Starting new HTTPS connection (1): gumapiservice.pwcinternal.com:443
+DEBUG 2022-07-14 00:31:24,259 - https://gumapiservice.pwcinternal.com:443 "POST /GumService.asmx?wsdl HTTP/1.1" 200 486
+ERROR 2022-07-14 00:31:24,357 - Internal Server Error: /api/post_user
+Traceback (most recent call last):
+  File "C:\Users\candon001\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\candon001\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\candon001\AppData\Local\Programs\Python\Python39\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\candon001\AppData\Local\Programs\Python\Python39\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\candon001\AppData\Local\Programs\Python\Python39\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\candon001\AppData\Local\Programs\Python\Python39\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\candon001\AppData\Local\Programs\Python\Python39\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\candon001\AppData\Local\Programs\Python\Python39\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\candon001\AppData\Local\Programs\Python\Python39\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\candon001\AppData\Local\Programs\Python\Python39\lib\site-packages\rest_framework\decorators.py", line 50, in handler
+    return func(*args, **kwargs)
+  File "C:\DevOpsTools_Automation\Automation%20Platform\DVT_api\views.py", line 74, in post_user
+    email_address = children1[1][3].text
+  File "src\lxml\etree.pyx", line 1161, in lxml.etree._Element.__getitem__
+IndexError: list index out of range
+INFO 2022-07-14 00:31:51,309 - Validating GUID: ytang11
+DEBUG 2022-07-14 00:31:51,311 - Starting new HTTPS connection (1): gumapiservice.pwcinternal.com:443
+DEBUG 2022-07-14 00:31:53,683 - https://gumapiservice.pwcinternal.com:443 "POST /GumService.asmx?wsdl HTTP/1.1" 200 486
+ERROR 2022-07-14 00:31:53,761 - Internal Server Error: /api/post_user
+Traceback (most recent call last):
+  File "C:\Users\candon001\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\candon001\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\candon001\AppData\Local\Programs\Python\Python39\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\candon001\AppData\Local\Programs\Python\Python39\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\candon001\AppData\Local\Programs\Python\Python39\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\candon001\AppData\Local\Programs\Python\Python39\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\candon001\AppData\Local\Programs\Python\Python39\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\candon001\AppData\Local\Programs\Python\Python39\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\candon001\AppData\Local\Programs\Python\Python39\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\candon001\AppData\Local\Programs\Python\Python39\lib\site-packages\rest_framework\decorators.py", line 50, in handler
+    return func(*args, **kwargs)
+  File "C:\DevOpsTools_Automation\Automation%20Platform\DVT_api\views.py", line 74, in post_user
+    email_address = children1[1][3].text
+  File "src\lxml\etree.pyx", line 1161, in lxml.etree._Element.__getitem__
+IndexError: list index out of range
+INFO 2022-07-14 00:32:39,729 - C:\DevOpsTools_Automation\Automation%20Platform\DVT_api\views.py changed, reloading.
+DEBUG 2022-07-14 00:32:39,730 - Using proactor: IocpProactor
+INFO 2022-07-14 00:32:43,080 - Watching for file changes with StatReloader
+INFO 2022-07-14 00:32:54,230 - Validating GUID: ytang11
+DEBUG 2022-07-14 00:32:54,241 - Starting new HTTPS connection (1): gumapiservice.pwcinternal.com:443
+DEBUG 2022-07-14 00:32:56,872 - https://gumapiservice.pwcinternal.com:443 "POST /GumService.asmx?wsdl HTTP/1.1" 200 486
+ERROR 2022-07-14 00:32:56,944 - Internal Server Error: /api/post_user
+Traceback (most recent call last):
+  File "C:\Users\candon001\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\candon001\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\candon001\AppData\Local\Programs\Python\Python39\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\candon001\AppData\Local\Programs\Python\Python39\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\candon001\AppData\Local\Programs\Python\Python39\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\candon001\AppData\Local\Programs\Python\Python39\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\candon001\AppData\Local\Programs\Python\Python39\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\candon001\AppData\Local\Programs\Python\Python39\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\candon001\AppData\Local\Programs\Python\Python39\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\candon001\AppData\Local\Programs\Python\Python39\lib\site-packages\rest_framework\decorators.py", line 50, in handler
+    return func(*args, **kwargs)
+  File "C:\DevOpsTools_Automation\Automation%20Platform\DVT_api\views.py", line 74, in post_user
+    email_address = children1[1][3].text
+  File "src\lxml\etree.pyx", line 1161, in lxml.etree._Element.__getitem__
+IndexError: list index out of range
+INFO 2022-07-14 00:38:13,935 - C:\DevOpsTools_Automation\Automation%20Platform\DVT_api\views.py changed, reloading.
+DEBUG 2022-07-14 00:38:13,936 - Using proactor: IocpProactor
+INFO 2022-07-14 00:38:17,214 - Watching for file changes with StatReloader
+INFO 2022-07-14 00:38:47,932 - C:\DevOpsTools_Automation\Automation%20Platform\DVT_api\views.py changed, reloading.
+DEBUG 2022-07-14 00:38:47,933 - Using proactor: IocpProactor
+INFO 2022-07-14 00:38:50,054 - Watching for file changes with StatReloader
+INFO 2022-07-14 00:38:56,793 - Validating GUID: ytang11
+DEBUG 2022-07-14 00:38:56,803 - Starting new HTTPS connection (1): gumapiservice.pwcinternal.com:443
+DEBUG 2022-07-14 00:38:59,129 - https://gumapiservice.pwcinternal.com:443 "POST /GumService.asmx?wsdl HTTP/1.1" 200 486
+WARNING 2022-07-14 00:38:59,139 - Bad Request: /api/post_user
+INFO 2022-07-14 00:41:48,582 - C:\DevOpsTools_Automation\Automation%20Platform\DVT_api\views.py changed, reloading.
+DEBUG 2022-07-14 00:41:48,584 - Using proactor: IocpProactor
+INFO 2022-07-14 00:41:51,283 - Watching for file changes with StatReloader
+INFO 2022-07-14 00:45:36,690 - C:\DevOpsTools_Automation\Automation%20Platform\DVT_api\views.py changed, reloading.
+DEBUG 2022-07-14 00:45:36,692 - Using proactor: IocpProactor
+INFO 2022-07-14 00:45:39,252 - Watching for file changes with StatReloader
+DEBUG 2022-07-14 00:48:51,351 - Using proactor: IocpProactor
+DEBUG 2022-07-14 00:48:51,503 - Using proactor: IocpProactor
