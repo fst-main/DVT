@@ -76,10 +76,10 @@ def post_user(request):
                 except IndexError:
                     print(f"GUID {guid} is not valid")
                     logger.info(f"GUID {guid} , is not valid...")
+                    #here put send mail warning mail function
                     return Response({f"status": "error, invalid GUID!",
                             "data":serializer.errors},
                             status=status.HTTP_400_BAD_REQUEST)
-
                 user_name = children1[1][1].text + " " + children1[1][2].text
             if ticket == "":
                 logger.info("Creating new ServiceNow ticket......")

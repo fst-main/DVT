@@ -17,7 +17,7 @@ SECRET_KEY = 'django-insecure-f7$^=nlw2siitx(e4!d!+1a3hg+dha0(2j(t)5g$ipeiz-s$sw
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['https://devopstoolsautomation.azurewebsites.net']
 
 
 # Application definition
@@ -50,6 +50,7 @@ REST_FRAMEWORK = {
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
+    'whitenoise.middleware.WhiteNoiseMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.common.CommonMiddleware',
     'django.middleware.csrf.CsrfViewMiddleware',
