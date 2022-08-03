@@ -1,0 +1,9 @@
+django
+termcolor
+djangorestframework
+beautifulsoup4
+bs4
+itsdangerous
+django-rest-auth
+django-allauth
+whitenoise
