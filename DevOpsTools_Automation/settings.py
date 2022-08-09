@@ -17,7 +17,9 @@ SECRET_KEY = 'django-insecure-f7$^=nlw2siitx(e4!d!+1a3hg+dha0(2j(t)5g$ipeiz-s$sw
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['https://devopstoolsautomation.azurewebsites.net']
+ALLOWED_HOSTS = ["*"]
+#ALLOWED_HOSTS = ['https://devopstoolsautomation.azurewebsites.net']
+
 
 
 # Application definition
@@ -32,6 +34,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     #'django.contrib.sites',
     'rest_framework',
+    'drf_spectacular',
     'DVT_api',
     'GHE_User_Billing_Website.apps.GheUserBillingWebsiteConfig',
     'rest_framework.authtoken',
@@ -45,7 +48,10 @@ REST_FRAMEWORK = {
         'rest_framework.authentication.TokenAuthentication',
     ),
     'DEFAULT_PERMISSION_CLASSES': (
-        'rest_framework.permissions.IsAuthenticated', )
+        'rest_framework.permissions.IsAuthenticated', ),
+     "DEFAULT_PAGINATION_CLASS": "rest_framework.pagination.PageNumberPagination",
+        "PAGE_SIZE": 10,
+    "DEFAULT_SCHEMA_CLASS": "drf_spectacular.openapi.AutoSchema"
 }
 
 MIDDLEWARE = [

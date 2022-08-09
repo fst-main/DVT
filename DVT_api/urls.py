@@ -7,7 +7,7 @@ from .views import post_user
 
 
 urlpatterns = [
-    #path('api/login', login),
+    path('api/login', login),
     path('get_user/', get_user),
     path('post_user/', post_user),
     #path('user-items/<int:id>', UserItemViews.as_view()),
