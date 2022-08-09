@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  automation20platform:
+    image: automation20platform
+    build:
+      context: .
+      dockerfile: ./Dockerfile
