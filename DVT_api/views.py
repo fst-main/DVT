@@ -79,7 +79,6 @@ def post_user(request):
                     return Response({f"status": "error, invalid GUID!",
                             "data":serializer.errors},
                             status=status.HTTP_400_BAD_REQUEST)
-                global user_name
                 user_name = children1[1][1].text + " " + children1[1][2].text
             if ticket == "":
                 logger.info("Creating new ServiceNow ticket......")
