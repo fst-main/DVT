@@ -9,7 +9,7 @@ from drf_spectacular.views import SpectacularAPIView, SpectacularSwaggerView
 
 
 urlpatterns = [
-    #path('home/', views.home),
+    path('home/', views.home),
     path('admin/', admin.site.urls),
     path('api/', include('DVT_api.urls')),
     path(' ', include('GHE_User_Billing_Website.urls')),

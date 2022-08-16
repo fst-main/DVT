@@ -15,8 +15,7 @@ import logging
 from rest_framework.status import (
     HTTP_400_BAD_REQUEST,
     HTTP_404_NOT_FOUND,
-    HTTP_200_OK
-)
+    HTTP_200_OK)
 
 #Global GUM variables
 user_prod = 'US_GIHB_PROD_P001'
@@ -80,6 +79,7 @@ def post_user(request):
                     return Response({f"status": "error, invalid GUID!",
                             "data":serializer.errors},
                             status=status.HTTP_400_BAD_REQUEST)
+                global user_name
                 user_name = children1[1][1].text + " " + children1[1][2].text
             if ticket == "":
                 logger.info("Creating new ServiceNow ticket......")
