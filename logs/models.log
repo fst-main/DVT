@@ -1380,3 +1380,20 @@ WARNING 2022-08-14 14:52:45,658 - Not Found: /favicon.ico
 WARNING 2022-08-14 14:54:03,733 - Not Found: /test-api
 DEBUG 2022-08-16 13:50:25,942 - Using proactor: IocpProactor
 DEBUG 2022-08-16 13:50:26,200 - Using proactor: IocpProactor
+INFO 2022-08-16 19:33:58,705 - Watching for file changes with StatReloader
+WARNING 2022-08-16 19:45:27,113 - Not Found: /
+INFO 2022-08-16 19:48:55,169 - Validating GUID: ytang114
+DEBUG 2022-08-16 19:48:55,176 - Starting new HTTPS connection (1): gumapiservice.pwcinternal.com:443
+DEBUG 2022-08-16 19:48:57,525 - https://gumapiservice.pwcinternal.com:443 "POST /GumService.asmx?wsdl HTTP/1.1" 200 1031
+INFO 2022-08-16 19:48:57,548 - Creating new ServiceNow ticket......
+INFO 2022-08-16 19:48:57,549 - Creating new RITM.....
+DEBUG 2022-08-16 19:48:57,551 - Starting new HTTPS connection (1): api.pwc.com:443
+DEBUG 2022-08-16 19:49:02,149 - https://api.pwc.com:443 "POST /pwcnetwork/service_now/api/ipwc/request_item/create/d954573ddbe53340a416f5261d9619c0/ritm_nv HTTP/1.1" 201 137
+INFO 2022-08-16 19:49:02,162 - RITM number: -----RITM9300196-----
+DEBUG 2022-08-16 19:49:02,163 - Starting new HTTPS connection (1): api.pwc.com:443
+DEBUG 2022-08-16 19:49:03,666 - https://api.pwc.com:443 "GET /pwcnetwork/service_now/api/now/table/sc_task?sysparm_query=active%3Dtrue%5Erequest_item.number%3DRITM9300196&sysparm_fields=sys_id,number HTTP/1.1" 200 103
+DEBUG 2022-08-16 19:49:03,671 - Starting new HTTPS connection (1): api.pwc.com:443
+DEBUG 2022-08-16 19:49:05,877 - https://api.pwc.com:443 "PATCH /pwcnetwork/service_now/api/now/table/sc_task/45dbec2a1b5dd15c4d78cb75464bcb63 HTTP/1.1" 200 1060
+INFO 2022-08-16 19:49:05,896 - User Yixuan Tang saved to data base and added to GUM group
+DEBUG 2022-08-16 20:01:41,998 - Using proactor: IocpProactor
+DEBUG 2022-08-16 20:01:42,140 - Using proactor: IocpProactor
