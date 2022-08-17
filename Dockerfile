@@ -1,6 +1,3 @@
-# Install OpenSSH and set the password for root to "Docker!". In this example, "apk add" is the install instruction for an Alpine Linux-based image.
-RUN apk add openssh \
-     && echo "root:Docker!" | chpasswd 
 #Install system dependencies
 RUN apt-get update \
     && apt-get install -y --no-install-recommends \
@@ -27,17 +24,28 @@ RUN apt-get update \
     && pip install xmltodict \
     && pip install lxml
 
-# Copy the sshd_config file to the /etc/ssh/ directory
+# Open ports for SSH access
+EXPOSE 8000
+ENV PORT 8000
+ENV SSH_PORT 2222
+ENV SSH_PORT1 22
+
+# setup SSH
+RUN mkdir -p /home/LogFiles \
+     && echo "root:Docker!" | chpasswd \
+     && echo "cd /home" >> /etc/bash.bashrc 
+
 COPY sshd_config /etc/ssh/
+RUN mkdir -p /opt/startup
+COPY init_container.sh /opt/startup/init_container.sh
 
-# Copy and configure the ssh_setup file
-RUN mkdir -p /tmp
-COPY ssh_setup.sh /tmp
-RUN chmod +x /tmp/ssh_setup.sh \
-    && (sleep 1;/tmp/ssh_setup.sh 2>&1 > /dev/null)
+# setup default site
+RUN mkdir /opt/defaultsite
+COPY hostingstart.html /opt/defaultsite
+COPY application.py /opt/defaultsite
 
-# Open port 2222 for SSH access
-EXPOSE 8080 2222
-# EXPOSE 80/tcp
-# EXPOSE 80/udp
-# EXPOSE 22/tcp
+# configure startup
+RUN chmod -R 777 /opt/startup
+COPY entrypoint.py /usr/local/bin
+
+ENTRYPOINT ["/opt/startup/init_container.sh"]
