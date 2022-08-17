@@ -1397,3 +1397,9 @@ DEBUG 2022-08-16 19:49:05,877 - https://api.pwc.com:443 "PATCH /pwcnetwork/servi
 INFO 2022-08-16 19:49:05,896 - User Yixuan Tang saved to data base and added to GUM group
 DEBUG 2022-08-16 20:01:41,998 - Using proactor: IocpProactor
 DEBUG 2022-08-16 20:01:42,140 - Using proactor: IocpProactor
+INFO 2022-08-16 20:12:24,283 - Watching for file changes with StatReloader
+WARNING 2022-08-16 20:13:58,823 - Not Found: /test-ui/schema
+WARNING 2022-08-16 20:14:07,180 - Not Found: /test-ui/schema/
+INFO 2022-08-17 15:32:44,414 - C:\DevOpsTools_Automation\Automation%20Platform\DVT_api\models.py changed, reloading.
+DEBUG 2022-08-17 15:32:44,462 - Using proactor: IocpProactor
+INFO 2022-08-17 15:32:49,153 - Watching for file changes with StatReloader
