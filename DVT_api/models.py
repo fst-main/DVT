@@ -2,7 +2,8 @@ from asyncio.log import logger
 from distutils.debug import DEBUG
 from django import views
 from django.db import models
-import lxml.etree as etree
+#import lxml.etree as etree
+from lxml import etree
 from . import GUM_API
 import logging
 import time
