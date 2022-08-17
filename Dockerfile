@@ -13,6 +13,6 @@ RUN chmod +x /tmp/ssh_setup.sh \
 
 # Open port 2222 for SSH access
 EXPOSE 8080 2222
-EXPOSE 80/tcp
-EXPOSE 80/udp
-EXPOSE 22/tcp
+# EXPOSE 80/tcp
+# EXPOSE 80/udp
+# EXPOSE 22/tcp
