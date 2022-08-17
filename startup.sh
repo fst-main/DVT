@@ -1,2 +1,2 @@
 #!/bin/sh
-/usr/sbin/sshd
+python manage.py runserver
