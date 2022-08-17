@@ -1,0 +1,4 @@
+{
+    "appService.defaultWebAppToDeploy": "/subscriptions/78ef2036-0a6e-43b7-871b-dd9659b1cb36/microsoft.web/sites/subscriptions/78ef2036-0a6e-43b7-871b-dd9659b1cb36/resourceGroups/gx-ghe-dev/providers/Microsoft.Web/sites/AnotherWebApp123",
+    "appService.deploySubpath": "."
+}
