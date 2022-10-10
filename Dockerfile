@@ -12,6 +12,7 @@ RUN apt-get update \
     && pip install virtualenv \
     && pip install beautifulsoup4 \
     && pip install bs4 \
+    && pip install tkinter \
     && pip install django \
     && pip install django-allauth \
     && pip install django-rest-auth \
