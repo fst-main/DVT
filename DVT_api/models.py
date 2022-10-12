@@ -15,7 +15,7 @@ from rest_framework.status import (
 )
 
 LOG_FORMAT = "%(levelname)s %(asctime)s - %(message)s"
-logging.basicConfig(filename="C:\\DevOpsTools_Automation\\Automation%20Platform\\logs\\models.log",
+logging.basicConfig(filename="/home/site/repository/logs/models.log",
                         level=logging.DEBUG, format=LOG_FORMAT)
 logger=logging.getLogger()
 
@@ -31,7 +31,7 @@ class EventApp(models.Model):
         
 
     def save(self, *args, **kwargs):
-        response = etree.parse("C:\\DevOpsTools_Automation\\Automation%20Platform\\DVT_api\\data.xml")
+        response = etree.parse("/home/site/repository/DVT_api/data.xml")
         if response is not None:
             #parsing the Envelope - XML response 
             xmlToString = etree.tostring(response, pretty_print = True)
