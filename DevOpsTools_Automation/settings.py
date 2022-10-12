@@ -37,7 +37,7 @@ INSTALLED_APPS = [
     'drf_spectacular',
     'DVT_api',
     'GHE_User_Billing_Website.apps.GheUserBillingWebsiteConfig',
-    'rest_framework.authtoken'
+    'rest_framework.authtoken',
    
 ]
 
